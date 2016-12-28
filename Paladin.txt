@@ -1,3 +1,57 @@
+Channel Divinity: Divine Mettle
+Encounter * Divine
+Minor Action			Close Burst 10
+Target: One creature in burst
+Effect: The target makes a saving throw with a bonus equal
+ to your Charisma modifier.
+NULL
+Channel Divinity: Divine Strength
+Encounter * Divine
+Minor Action			Personal
+Effect: Apply your Strength modifier as extra damage on
+ your next attack this turn.
+NULL
+Divine Challenge
+At-Will * Divine, Radiant
+Minor Action			Close Burst 5
+Target: One creature in burst
+Effect: You mark the target. The target remains marked un-
+ til you use this power against another target, or if you fail
+ to engage the target (see below). A creature can be subject
+ to only one mark at a time. A new mark supersedes a 
+ mark that was already in place.
+   While a target is marked, it takes a -2 penalty to attack
+ rolls for any attack that doesn't include you as a target.
+ Also, it takes radiant damage equal to 3 + your Charisma
+ modifier the first time it makes an attack that doesn't in-
+ clude you as a target before the start of your next turn. The
+ damage increases to 6 + your Charisma at 11th level
+ and to 9 + your Charisma modifier at 21st leve.
+   On your turn, you must engage the target you chal-
+ lenged or challenge a different target. To engage the
+ target, you must either attack it or end your turn adjacent
+ to it. If none of these events occur by the end of your turn,
+ the marked condition ends and you can't use divine chal-
+ lenge on your next turn.
+   you can use divine challenge once per turn
+Special: Even though this ability is called a challenge, it
+ doesn't rely on the intelligence or language ability of the
+ target. It's a magical compulsion that affects the creature;s
+ behaviour, regardless of the creature's nature. You can't place
+  a divine challenge on a creature that is already affected by
+  your or another character's divine challenge.
+NULL
+Lay on Hands
+At-Will(Special) * Divine, Healing
+Special: You can use this power a number of times per day
+ equal to your Wisdom modifier(minimum 1), but only once
+ per round.
+Minor Action		Melee touch
+Target: One Creature
+Effect: You spend a healing surge but regain no hit points.
+ Instead, the target regains hit points as if it had spent a 
+ healing surge. You must have at least one healing surge 
+ remaining to use this power.
 Bolstering Strike
 At-Will * Divine, Weapon
 Standard Action		Melee weapon
