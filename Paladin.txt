@@ -52,6 +52,7 @@ Effect: You spend a healing surge but regain no hit points.
  Instead, the target regains hit points as if it had spent a 
  healing surge. You must have at least one healing surge 
  remaining to use this power.
+NULL
 Bolstering Strike
 At-Will * Divine, Weapon
 Standard Action		Melee weapon
