@@ -1,3 +1,32 @@
+Fighting Style
+Choose one of the following fighting styles and gain its
+benefit
+   Archer Fighting Style: Because of your focus on
+ranged attacks, you gain Defensive Mobility as a bonus
+feat.
+   Two-Blade Fighting Style: Because of your
+focus on two-weapon melee attacks, you can wield a
+one-handed weapon in your off hand as if it were an
+off-hand weapon. In addition, you gain Toughness as a bonus feat.
+NULL
+Hunters Quarry
+Once per turn as a minor action, you can designate the 
+enemy nearest to you as your quarry.
+   Once per round, you deal extra damage to your 
+quarry. The extra damage is based on your level. If
+you can make multiple attacks in a round, you decide
+which attack to apply the extra damage to after all the
+attacks are rolled.
+   The hunter's quarry effect remains active until the
+end of the encounter, until the quarry is defeated, or
+until you designate a different target as your quarry.
+   You can designate one enemy as your quarry at a
+time. 
+Level 			Hunter's Quarry Extra Damage
+1st-10th					+1d6
+11th-20th					+2d6
+21st-30th					+3d6
+NULL
 Careful Attack 
 At-Will * Martial, Weapon
 Standard Action		Melee or Ranged Weapon
