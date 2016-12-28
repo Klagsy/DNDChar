@@ -1,0 +1,228 @@
+First Strike
+At the start of an encounter, you have combat advan-
+tage against any creatures that have not yet acted in
+that encounter.
+NULL
+Rogue Tactics
+Choose one of the following options
+  Artful Dodger: You gain a bonus to AC equal to 
+your Charisma modifier against opportunity attacks.
+  Brutal Scoundrel: You gain a bonus to Sneak
+Attack damage equal to your Strength modifier.
+NULL
+Rogue Weapon Talent
+When you wield a shuriken, your weapon damage die
+increases by one size. When you wield a dagger, you
+gain a +1 bonus to attack rolls.
+NULL
+Sneak Attack
+Once per round, when you have combat advantage
+against an enemy and are using a weapon from the
+light blade, the crossbow, or the sling weapon group,
+an attack you make against that enemy deals extra 
+damage if the attack hits. You decide whether to apply
+the extra damage after making the damage roll. As
+you advance in level, your extra damage increases.
+NULL
+Deft Strike
+At-Will * Martial, Weapon
+Standard Action       Melee or Ranged weapon
+Requirement: You must be wielding a crossbow, a light blade,
+or a sling.
+Target: One Creature
+Special: You can move 2 squares before the attack
+Attack: Dexterity vs. AC
+Hit 1[W] + Dexterity modifier damage
+Increase damage to 2[W] + Dexterity modifier at 21st level.
+NULL
+Piercing Strike
+At-Will * Martial, Weapon
+Standard Action,       Melee Weapon
+Requirement: You must be wielding a light blade.
+Target: One creature
+Attack: Dexterity vs. Reflex
+Hit: 1[W] + Dexterity modifier damage.
+Increase damage to 2[W] + Dexterity modifier at 21st level.
+NULL
+Riposte Strike
+At-Will * Martial, Weapon
+Standard Action,       Melee Weapon
+Requirement: You must be wielding a light blade.
+Target: One creature
+Attack: Dexterity vs. AC
+Hit: 1[W] + Dexterity modifier damage. If the target attacks
+ you before the start of your next turn, you make your
+ riposte against the target as an immediate interrupt: a
+ Strength vs. AC attack that deals 1[W] + Strength modifier
+ damage.
+Increase damage to 2[W] + Dexterity modifier and riposte to
+ 2[W] + Strength modifier at 21st level.
+NULL
+Sly Flourish
+At-Will * Martial, Weapon
+Standard Action       Melee or Ranged weapon
+Requirement: You must be wielding a crossbow, a light blade,
+or a sling.
+Target: One Creature
+Attack: Dexterity vs. AC
+Hit 1[W] + Dexterity modifier damage  + Charisma modifier
+ damage.
+Increase damage to 2[W] + Dexterity modifier + Charisma
+ modifier at 21st level.
+NULL
+Dazing Strike
+Encounter * Martial, Weapon
+Standard Action,       Melee Weapon
+Requirement: You must be wielding a light blade.
+Target: One creature
+Attack: Dexterity vs. AC
+Hit: 1[W] + Dexterity modifier damage, and the target is
+ dazed until the end of your next turn.
+NULL
+King's Castle
+Encounter * Martial, Weapon
+Standard Action       Melee or Ranged weapon
+Requirement: You must be wielding a crossbow, a light blade,
+or a sling.
+Target: One Creature
+Attack: Dexterity vs. Reflex
+Hit: 2[W] + Dexterity modifier damage.
+Effect: Switch places with a willing adjacent ally.
+NULL
+Positioning Strike
+Encounter * Martial, Weapon
+Standard Action,       Melee Weapon
+Requirement: You must be wielding a light blade.
+Target: One creature
+Attack: Dexterity vs. Will
+Hit: 1[W] + Dexterity modifier damage and you slide the
+ target 1 square.
+Artful Dodger: You slide the target a number of squares
+ equal to your Charisma modifier.
+NULL
+Torturous Strike
+Encounter * Martial, Weapon
+Standard Action,       Melee Weapon
+Requirement: You must be wielding a light blade.
+Target: One creature
+Attack: Dexterity vs. AC
+Hit: 2[W] + Dexterity modifier damage.
+Brutal Scoundrel: You gain a bonus to the damage roll
+ equal to your Strength modifier.
+NULL
+Blinding Barrage
+Daily * Martial, Weapon
+Standard Action       Close blast 3
+Requirement: You must be wielding a crossbow, a light
+thrown weapon, or a sling.
+Target: Each enemy in blast you can see
+Attack: Dexterity vs. AC
+Hit: 2[W] + Dexterity modifier damage, and the target is
+ blinding until the end of your next turn.
+Miss: Half damage, and the target is not blinded.
+NULL
+Easy Target
+Daily * Martial, Weapon
+Standard Action       Melee or Ranged weapon
+Requirement: You must be wielding a crossbow, a light blade,
+or a sling.
+Target: One Creature
+Attack: Dexterity vs. AC
+Hit: 2[W] + Dexterity modifier damage, and the target is
+ slowed and grants combat advantage to you (save ends
+both).
+Miss: Half damage, and the target grants combat advantage
+ to you until the end of you next turn.
+NULL
+Trick Strike
+Daily * Martial, Weapon
+Standard Action       Melee or Ranged weapon
+Requirement: You must be wielding a crossbow, a light blade,
+or a sling.
+Target: One Creature
+Attack: Dexterity vs. AC
+Hit: 3[W] + Dexterity modifier damage, and you slide the
+ target 1 square.
+Effect: Until the end of the encounter, each time you hit the
+ target you slide it 1 square.
+NULL
+Fleeting Ghost
+At-Will * Martial
+Move Action           Personal
+Prerequisite: You must be trained in Stealth.
+Effect: You can move your speed and make a stealth check.
+ You do not take the normal penalty from movement on
+ this check.
+NULL
+Great Leap
+At-Will * Martial
+Move Action           Personal
+Prerequisite: You must be trained in Athletics.
+Effect: Make a high jump or a long jump. Determine the DC
+ of the Athletics check as though you had a running start.
+ The distance you jump can exceed your speed.
+NULL
+Master of Deceit
+Encounter * Martial
+Free Action           Personal
+Trigger: You roll a Bluff check and dislike the result.
+Prerequisite: You must be trained in Bluff
+Effect: Reroll the Bluff check. You decide whether to make
+ the reroll before the DM announces the result
+NULL
+Quick Fingers
+Encounter * Martial
+Minor Action           Personal
+Prerequisite: You must be trained in Thievery.
+Effect: Make Thievery check as part of this action, even if
+ the check is normally a standard action.
+NULL
+Tumble
+Encounter * Martial
+Move Action           Personal
+Prerequisite: You must be trained in Acrobatics.
+Effect: You can shift a number of squares equal to one-half
+ your speed.
+NULL
+rougeEncounter3
+Bait and Switch
+Encounter * Martial, Weapon
+Standard Action,       Melee Weapon
+Requirement: You must be wielding a light blade.
+Target: One creature
+Attack: Dexterity vs. Will
+Hit: 2[W] + Dexterity modifier damage. In addition, you
+ switch places with the target and can then shift 1 square.
+ Artful Dodger: You can shift a number of squares equal to
+ your Charisma modifier.
+NULL
+Setup Strike
+Encounter * Martial, Weapon
+Standard Action,       Melee Weapon
+Requirement: You must be wielding a light blade.
+Target: One creature
+Attack: Dexterity vs. AC
+Hit: 2[W] + Dexterity modifier damage, and the target grants
+ combat advantage to you until the end of your next turn.
+NULL
+Topple Over
+Encounter * Martial, Weapon
+Standard Action,       Melee Weapon
+Requirement: You must be wielding a light blade.
+Target: One creature
+Attack: Dexterity vs. AC
+ Brutal Scoundrel: You gain a bonus to the attack roll equal
+ to your Strength modifier
+Hit 1[W] + Dexterity modifier damage, and the target is
+ knocked prone.
+NULL
+Trickster's Blade
+At-Will * Martial, Weapon
+Standard Action       Melee or Ranged weapon
+Requirement: You must be wielding a crossbow, a light blade,
+or a sling.
+Target: One Creature
+Attack: Dexterity vs. AC
+Hit: 2[W] + Dexterity modifier damage. Add your Charmisma
+ modifier to your AC until the start of your next turn.
+NULL

@@ -1,0 +1,275 @@
+Ghost Sound
+At- Will * Arcane, Illusion
+Standard Action          Ranged 10
+Target: One object or unoccupied square
+Effect: You cause a sound as quiet as a whisper or as loud as
+ a yelling or fighting creature to emanate from the target,
+ You can produce nonvocal sounds such as the ringing or a
+ sword blow, jingling armor, or scraping stone. If you whis-
+ per, you can whisper quietly enough that only creatures
+ adjacent to the target can hear your words.
+NULL
+Light
+At- Will * Arcane
+Minor Action          Ranged 5
+Target: One object or unoccupied square
+Effect: You cause the target to shed bright light. The light
+ fills the target's square and all squares within 4 squares of
+ it. The light lasts for 5 minutes. Putting out the light is a
+ free action.
+Special: You can have only one light cantrip active at a time. If
+ you create a new light, you previously cast light winks out.
+NULL
+Mage Hand
+At- Will * Arcane, Conjuration
+Minor Action          Ranged 5
+Effect: You conjure a spectral, floating hand in an unoc-
+ cupied square within range. The hand picks up, moves,
+ or manipulates an adjacent object weighing 20 pounds
+ or less and carries it up to 5 squares. If you are holding
+ the object when you use this power, the hand can move
+ the object into a pack, a pouch, a sheath, or a similar con-
+ worn anywhere on your body into your hand.
+  As a move action, you can move the hand up to 5
+ squares. As a free action, you can cause the hand to drop
+ an object it is holding, and as a minor action, you can
+ cause the hand to pick up or manipulate a different object.
+Sustain Minor: You can sustain the hand indefinitely.
+Special: You can create only one hand at a time.
+NULL
+Prestidigitation
+At- Will * Arcane
+Standard Action          Ranged 2
+Effect: Use this cantrip to accomplish one of the ffects
+ given below.
+  * Move up to 1 pound of material.
+  * Create a harmless sensory effect, such as a shower
+    of sparks, a puff of wind, faint music, or a strong odor.
+  * Color, clean, or soil items in 1 cubic foot for up to
+    1 hour.
+  * Instantly light (or snuff out) a candle, a torch, or a
+    small campfire.
+  * Make a small mark or symbol appear on a surface for
+    up to 1 hour.
+  * Produce out of nothingness a small item or image
+    that exists until the end of your next turn.
+  * Make a small, handheld item invisible until the end of
+    your next turn.
+  Nothing you create with this cantrip can deal damage,
+ serve as a weapon or a tool, or hinder another creature's
+ actions. This cantrip cannot duplicate the effect of any
+ other power.
+Special: You can have as many as three prestidigitation
+ effects active at one time.
+NULL
+Cloud of Daggers
+At-Will * Arcane, Force, Implement
+Standard Action         Area 1 square within 10 squares
+Target: Each creature in square
+Attack: Intelligence vs. Reflex
+Hit: 1d6 + Intelligence modifier force damage.
+Increase damage to 2d6 + Intelligence modifier at 21st level.
+Effect: The power's area is filled with sharp daggers of force.
+ Any creature that enters the area or starts its turn there
+ takes force damage equal to your Wisdom modifier (mini-
+ mum 1). The could remains in place until the end of your
+ next turn. You can dispel it earlier as a minor action.
+NULL
+Magic Missle
+At-Will * Arcane, Force, Implement
+Standard Action         Ranged 20
+Target: One creature
+Effect: 2 + Intelligence modifier force damage. Add the
+ enhancement bonus, if any, on the implement used for
+ magic missle to magic missle's damage.
+Increase damage to 3 + Intelligence modifier force damage at
+ level 11, and 5 + Intelligence modifier force damage at level
+ 21.
+Special: This power counts as a ranged basic attack. When'
+ a power allows you to make a ranged basic attack, you can
+ use this power.
+NULL
+Ray of Frost
+At-Will * Arcane, Cold, Implement
+Standard Action         Ranged 10
+Target: One creature
+Attack: Intelligence vs. Fortitude
+Hit: 1d6 + Intelligence modifier cold damage, and the tar-
+ get is slowed until the end of your next turn.
+Increase damage to 2d6 + Intelligence modifier at 21st level.
+NULL
+Scorching Burst
+At-Will * Arcane, Fire, Implement
+Standard Action         Area burst 1 within 10 squares
+Target: Each creature in burst
+Attack: Intelligence vs. Reflex
+Hit: 1d6 + Intelligence modifier fire damage.
+Increase damage to 2d6 + Intelligence modifier at 21st level.
+NULL
+Thunderwave
+At-Will * Arcane, Implement, Thunder
+Standard Action         Close blast 3
+Target: Each creature in blast
+Attack: Intelligence vs. Fortitude
+Hit: 1d6 + Intelligence modifier thunder damage, and you
+ push the target a number of squares equal to your wis-
+ dom modifier.
+Increase damage to 2d6 + Intelligence modifier at 21st level.
+NULL
+Burning hands
+Encounter * Arcane, Fire, Implement
+Standard Action         Close blast 5
+Target: Each creature in blast
+Attack: Intelligence vs. Reflex
+Hit: 2d6 + Intelligence modifier fire damage.
+NULL
+Chill Strike
+Encounter * Arcane, Cold, Implement
+Standard Action         Ranged 10
+Target: Each creature in square
+Attack: Intelligence vs. Fortitude
+Hit: 2d8 + Intelligence modifier cold damage, and the tar-
+ get is dazed until the end of your next turn.
+NULL
+Force Orb
+Encounter * Arcane, Force, Implement
+Standard Action         Ranged 20
+Target: One creature or object
+Attack: Intelligence vs. Reflex
+Hit: 2d8 + Intelligence modifier force damage. Make a sec-
+ ondary attack.
+ Secondary Target: Each enemy adjacent to the primary
+ target
+ Secondary Attack: Intelligence vs. Reflex
+ Hit: 1d10 + Intelligence modifier force damage.
+NULL
+Icy Terrain
+Encounter * Arcane, Cold, Implement
+Standard Action         Area burst 1 within 10 squares
+Target: Each creature in burst
+Attack: Intelligence vs. Reflex
+Hit: 1d6 + Intelligence modifier cold damage, and the tar-
+ get is knocked prone.
+Effect: The power's area is difficult terrain until the end of
+ your next turn. You can end this effect as a minor action.
+NULL
+Ray of Enfeeblement
+Encounter * Arcane, Implement, Necrotic
+Standard Action         Ranged 10
+Target: One creature
+Attack: Intelligence vs. Fortitude
+Hit: 1d10 + Intelligence modifier necrotic damage, and the
+ target is weakened until the end of your next turn.
+NULL
+Acid Arrow
+Daily * Acid, Arcane, Implement
+Standard Action         Ranged 20
+Target: One creature
+Attack: Intelligence vs. Reflex
+Hit: 2d8 + Intelligence modifier acid damage, and ongoing
+ 5 acid damage (save ends). Make a secondary attack.
+ Secondary Target: Each creature adjacent to the primary
+ target
+ Secondary Attack: Intelligence vs. Reflex
+ Hit: 1d8 + Intelligence modifier acid damage, and onging
+ 5 acid damage (save ends).
+Miss: Half damage, and ongoing 2 acid damage to primary
+ target (save ends), and no secondary attack.
+NULL
+Flaming Sphere
+Daily * Arcane, Conjuration, Fire Implement
+Standard Action         Ranged 10
+Target: One creature adjacent to the flaming sphere
+Attack: Intelligence vs. Reflex
+Hit 2d6 + Intelligence modifier fire damage.
+Effect: You conjure a Medium flaming sphere in an
+ unoccupied square within range, and the sphere attacks an
+ adjacent creature. Any creature that starts its turn next to
+ the flaming sphere takes 1d4 + Intelligence modifier fire
+ damage. As a move action, you can move the sphere up to
+ 6 squares.
+Sustain Minor: You cansustain this power until the end of
+ the encounter. As a standard action, you can make another
+ attack with the sphere.
+NULL
+Freezing Cloud
+Daily * Arcane, Cold, Implement
+Standard Action         Area burst 2 within 10 squares
+Target: Each creature in burst
+Attack: Intelligence vs. Fortitude
+Hit 1d8 + Intellience modifier cold damage.
+Miss: Half damage.
+Effect: The could lasts until the end of your next turn. Any
+ creature that enters the cloud or starts its turn there is
+ subject to another attack. You can dismiss the cloud as a
+ minor action.
+NULL
+Sleep
+Daily * Arcane, Implement, Sleep
+Standard Action         Area burst 2 within 20 squares
+Target: Each creature in burst
+Attack: Intelligence vs. Will
+Hit: The target is slowed (save ends). If the target fails its
+ first saving throw against this power, the target becomes
+ unconscious (save ends).
+Miss: The target is slowed (save ends).
+NULL
+Expeditious Retreat
+Daily * Arcane
+Move Action             Personal
+Effect: Shift up to twice your speed.
+NULL
+Feather Fall
+Daily * Arcane
+Free action             Ranged 10
+Trigger: You or one creature in range falls
+Effect: You or the creature takes no damage from that fall,
+ regardless of its destance, and does not fall prone at the
+ end of the fall.
+NULL
+Jump
+Encounter * Arcane
+Move Action             Ranged 10
+Target: You or one creature
+Effect: The target makes an Athletics check to jump with a
+ + 10 power bonus, and the target does not have to move
+ to make a running jump.
+NULL
+Shield
+Encounter * Arcane, Force
+Immediate Interrupt    Personal
+Trigger: You are hit by an attack
+Effect: You gain a +4 power bonus to AC and Reflex defense
+ until the end of your next turn.
+NULL
+Color Spray
+Encounter * Arcane, Implement, Radiant
+Standard Action         Close blast 5
+Target: Each creature in blast
+Attack: Intelligence vs. Will
+Hit: 1d6 + Intelligence modifier radiant damage, and the
+ target is dazed until the end of your next turn.
+NULL
+Fire Shroud
+Encounter * Arcane, Fire, Implement
+Standard Action         Close burst 3
+Target: Each enemy in burst
+Attack: Intelligence vs. Fortitude
+Hit: 1d8 + Intelligence modifier fire damage, and ongoing 5
+ fire damage (save ends).
+NULL
+Ice Rays
+Encounter * Arcane, Cold, Implement
+Standard Action         Ranged 10
+Target: One or two creatures
+Attack: Intelligence vs. Reflex, one attack per target
+Hit: 1d10 + Intelligence modifier cold damage, and the tar-
+ get is immoblized until the end of your next turn.
+NULL
+Shock Sphere
+Encounter * Arcane, Implement, Lightning
+Standard Action         Area burst 2 within 10 squares
+Target: Each creature in burst
+Attack: Intelligence vs. Reflex
+Hit: 2d6 + Intelligence modifier lightning damage.
+NULL

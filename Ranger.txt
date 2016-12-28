@@ -1,0 +1,194 @@
+Careful Attack 
+At-Will * Martial, Weapon
+Standard Action		Melee or Ranged Weapon
+Requirement: You must be wielding two melee weapons
+ or a ranged weapon
+Target: One creature
+Attack: Strength + 2 vs. AC (melee) or Dexterity + 2 
+vs. AC (ranged).
+Hit: 1[W] damage (melee) or 1[W] damage (ranged).
+Increase damage to 2[W](melee) or 2[W](ranged) at 21st
+ level.
+NULL
+Hit and Run
+At-Will * Martial, Weapon, 
+Standard Action		Melee Weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 1[W] + Strength modifier damage
+Increase to 2[W] + Strength modifier at 21st level.
+Effect: If you move in the same turn after this attack,
+ leaving the first square adjacent to the target does
+ not provoke an opportunity attack from the target.
+NULL
+Nimble Strike
+At-Will * Martial, Weapon
+Standard Action		Ranged Weapon
+Target: One Creature
+Special: Shift 1 square before or after you attack
+Attack: Dexterity vs. AC
+Hit: 1[W] + Dexterity modifier damage
+Increase to 2[W] + Strength modifier at 21st level.
+NULL
+Twin Strike
+At-Will * Martial, Weapon
+Standard Action		Melee or Ranged weapon
+Requirement: You must be wielding two melee weapons
+ or a ranged weapon.
+Target: One or two creatures
+Attack: Strength vs. AC (melee; main weapon and off-
+hand weapon) or Dexterity vs. AC(ranged), two attacks.
+Hit: 1[W] damage per attack.
+Increase damage to 2[W] at 21st level.
+NULL
+Dire Wolverine Strike
+Encounter * Martial, Weapon
+Standard Action		Close burst 1
+Requirement: You must be wielding two melee weapons.
+Target: Each enemy in burst you can see.
+Attack: Strength vs. AC
+Hit: 1[W] + Strength modifier damage.
+NULL
+Evasive Strike
+Encounter * Martial, Weapon
+Standard Action		Melee or Ranged Weapon
+Target: One creature
+Special: You can shift a number of squares equal to 1+ 
+ your Wisdom modifier either before or after the attack.
+Attack: Strength vs. AC(Melee) or Dexterity vs. AC(Ranged)
+Hit:2[W]+Strength modifier damage(melee) or 2[W]+
+ Dexterity modifier damage(ranged)
+NULL
+Fox's Cunning
+Encounter * Martial, Weapon
+Immediate Reaction	Melee or Ranged weapon
+Trigger: An enemy makes a melee attack against you
+Attack: You can shift 1 square, then make a basic attack
+ against the enemy.
+Special: Gain a power bonus to your basic attack roll equal
+ to your Wisdom Modifier
+NULL
+Two-Fanged Strike
+Encounter * Martial, Weapon
+Standard Action		Melee or Ranged weapon
+Requirement: You must be wielding two melee weapons or a
+ranged weapon
+Target: One creature
+Attack: Strength vs. AC(melee;main weapon and off hand 
+ weapon) or Dexterity vs AC(ranged), two attacks.
+Hit: 1[W]+Strength modifier damage (melee) or 1[W] + 
+ Dexterity modifier damage(ranged) per attack. If both
+ attacks hit, you deal extra damage equal to your Wisdom modifier.
+NULL
+Hunter's Bear Trap
+Daily * Martial, Weapon
+Standard Action		Melee or ranged weapon
+Target: One creature
+Attack: Strength vs. AC(melee) or Dexterity vs. AC(ranged)
+Hit: 2[W]+Strength modifier damage (melee) or 2[W]+ Dexterity 
+ modifier damage (ranged), and the target is slowed and takes 
+ ongoing 5 damage (save ends both).
+Miss: Half damage, no ongoing damage, and the target is slowed
+ until the end of your next turn.
+NULL
+Jaws of the Wolf
+Daily * Martial, Weapon
+Standard Action		Melee weapon
+Requirement: You must be wielding two melee weapons.
+Target: One creature
+Attack: Strength vs. AC (main weapon and off-hand weapon),
+ two attacks
+Hit: 2[W]+Strength modifier damage per attack.
+Miss: Half damage per attack.
+NULL
+Split the Tree
+Daily * Martial, Weapon
+Standard Action		Ranged weapon
+Targets: Two creatures within 3 squares of each other
+Attack: Dexterity vs. AC Make two attack rolls, take the
+ higher result, and apply it to both targets.
+Hit: 2[W]+Dexterity modifier damage.
+NULL
+Sudden Strike
+Daily * Martial, Weapon
+Standard Action		Melee weapon
+Requirement: You must be wielding two melee weapons.
+Target: One creature
+Attack: Strength vs. AC(off-hand weapon)
+Hit: 1[W] damage (off-hand weapon)
+Effect: You shift 1 square and make a secondary attack
+ against the target.
+ Secondary Attack: Strength vs. AC(main weapon)
+ Hit: 2[W]+Strength modifier damage(main weapon), and
+ the target is weakened until the end of your next turn.
+NULL
+Crucial Advice
+Encounter * Martial
+Immediate Reaction	Ranged 5
+Trigger: An ally within range that you can see or hear makes a
+ skill check using a skill in which you're trained
+Effect: Grant the ally the ability to reroll the skill check, with
+ a power bonus equal to your Wisdom modifier.
+NULL
+Unbalancing Parry
+Encounter * Martial, Weapon
+Immediate Reaction	Melee 1
+Trigger: An enemy misses you with a melee attack
+Effect: Slide the enemy into a square adjacent to you and
+ gain combat advantage against it until the end of your 
+ next turn.
+NULL
+Yield Ground
+Encounter * Martial
+Immediate Reaction	Personal
+Trigger: An enemy damages you with a melee attack
+Effect: You can shift a number of squares equal to your Wis-
+ dom modifier. Gain a +2 power bonus to all defenses until
+ the end of your next turn.
+NULL
+Cut and Run
+Encounter * Martial, Weapon
+Standard Action		Melee or Ranged weapon
+Requirement: You must be wielding two melee weapons or a 
+ ranged weapon.
+Target: One or two creatures
+Attack: Strength vs. AC (Melee; main weapon and off-hand
+ weapon) or Dexterity vs. AC (ranged), two attacks
+Special: After the first or the second attack, you can shift a
+ number of squares equal to 1 + your Wisdom modifier.
+Hit: 1[W]+Strength modifier damage (melee) or 1[W] + 
+ Dexterity modifier damage (ranged) per attack.
+NULL
+Disruptive Strike
+Encounter * Martial, Weapon
+Immediate Interrupt	Melee or Ranged weapon
+Trigger: You or an ally is attacked by a creature
+Target: The attacking creature
+Attack: Strength vs. AC (melee) or Dexterity vs. AC (ranged)
+Hit: 1[W]+Strength modifier damage (melee) or 1[W] +
+ Dexterity modifier damage (ranged). The target takes a
+ penalty to its attack roll for the triggering attack equal to 3
+ + your Wisdom modifier.
+NULL
+Shadow Wasp Strike
+Encounter * Martial, Weapon
+Standard Action		Melee or Ranged weapon
+Target: One creature that is your quarry
+Attack: Strength vs. AC (melee) or Dexterity vs. AC (ranged)
+Hit: 2[W] + Strength modifier damage (melee) or 2[W] +
+ Dexterity modifier damage (ranged).
+NULL
+Thundertusk Boar Strike
+Encounter * Martial, Weapon
+Standard Action		Melee or Ranged weapon
+Requirement: You must be wielding two melee weapons or a
+ ranged weapon.
+Targets: One or two creatures
+Attack: Strength vs. AC (melee; main weapon and off-hand
+ weapon) or Dexterity vs. Ac (ranged), two attacks
+Hit: 1[W]+Strength modifier damage (melee) or 1[W] +
+ Dexterity modifier damage (ranged) per attack. With each
+ hit, you push the target 1 square. If both attacks hit the
+ same target, you push the target a number of squares
+ equal to 1+ your Wisdom modifier
+NULL

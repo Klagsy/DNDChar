@@ -1,0 +1,194 @@
+warlockAtWill
+Dire Radiance
+At-Will * Arcane, Fear, Implement, Radiant (Star)
+Standard Action         Ranged 10
+Target: One creature
+Attack: Constitution vs. Fortitude
+Hit: 1d6 + Constitution modifier radiant damage. if the tar-
+ get moves nearer to you on its next turn, it takes an extra
+ 1d6 + Constitution modifier damage.
+NULL
+Eldritch Blast
+At-Will * Arcane, Implement (All)
+Standard Action         Ranged 10
+Target: One creature
+Attack: Charisma or Constitution vs. Reflex
+Hit: 1d10 + Charisma or Constitution modifier damage.
+Increase damage to 2d10 + Charisma or Constitution
+ modifier at 21st level.
+Special: At 1st level, you determine wether you use Cha-
+ risma or Constitution to attack with this power. Once you
+ make that choice, you can't change it later.
+  This power counts as a ranged basic attack. When a 
+ power allows you to make a ranged basic attack, you can
+ use this power.
+NULL
+Eyebite
+At-Will * Arcane, Charm, Implement, Psychic (Fey)
+Standard Action         Ranged 10
+Target: One creature
+Attack: Charisma vs. Will
+Hit: 1d6 + Charisma modifier psychic damage, and you are
+ invisible to the target until the start of your next turn.
+Increase damage to 2d6 + Charisma modifier at 21st level.
+NULL
+Hellish Rebuke
+At-Will * Arcane, Fire, Implement (Infernal)
+Standard Action         Ranged 10
+Target: One creature
+Attack: Constitution vs. Reflex
+Hit: 1d6 + Constitution modifier fire damage. If you take
+ damage before the end of your next turn, the target takes
+ an extra 1d6 + Constitution modifier fire damage.
+Increase damage and extra damage to 2d6 + Constitution
+ modifier at 21st level.
+NULL
+warlockEncounter
+Diabloic Grasp
+Encounter * Arcane, Implement (Infernal)
+Standard Action         Ranged 10
+Target: One creature
+Attack: Constitution vs. Fortitude
+Hit: 2d8 + Constitution modifier damage, and you slide the
+ target 2 squares.
+ Infernal Pact: You slide the target a number of squares
+ equal to 1 + your Intelligence modifier.
+NULL
+Dreadful Word
+Encounter * Arcane, Fear, Implement, Psychic (Star)
+Standard Action         Ranged 5
+Target: One creature
+Attack: Charisma vs. Will
+Hit: 2d8 + Charisma modifier psychic damage, and the tar-
+ get takes a -1 penalty to Will defence until the end of your
+ next turn.
+ Star Pact: The penalty to Will defense is equal to 1 + your
+ Intelligence modifier.
+NULL
+Vampiric Embrase
+Encounter * Arcane, Implement, Necrotic (Infernal)
+Standard Action         Ranged 5
+Target: One creature
+Attack: Constitution vs. Will
+Hit: 2d8 + Constitution modifier nexrotic damage, and you
+ gain 5 temporary hit points.
+ Infernal Pact: You gain temporary hit points equal to 5 +
+ your Intelligence modifier
+NULL
+WitchFire
+Encounter * Arcane, Fire, Implement (Fey)
+Standard Action         Ranged 10
+Target: One creature
+Attack: Charisma vs. Reflex
+Hit: 2d6 + Charisma modifier fire damage, and the target
+ takes a -21 penalty to attack rolls until the end of your next
+ turn.
+ Fey Pact: The penalty to attack rolls is equal to 2+ your
+ Intelligence modifier.
+NULL
+warlockDaily
+Armor of Agathys
+Daily * Arcane, Cold (Infernal)
+Standard Action         Personal
+Effect: You gain temporary hit points equal to 10 + your
+ Intelligence modifier. Until the end of the encounter, an
+ enemy that starts its turn adjacent to you takes 1d6 +
+ Constitution modifier cold damage.
+NULL
+Curse of the Dark Dream
+Daily * Arcane, Charm, Implement, Psychic (Fey)
+Standard Action         Ranged 10
+Target: One creature
+Attack: Charisma vs. Will
+Hit: 3d8 + Charisma modifier psychic damage, and you
+ slide the target 3 squares.
+Sustain Minor: You slide the target 1 square, whether you hit
+ or miss (save ends).
+NULL
+Dread Star
+Daily * Arcane, Fear, Implement, Radiant (Star)
+Standard Action         Ranged 10
+Target: One creature
+Attack: Charisma vs. Will
+Hit 2d6 + Charisma modifier radiant damage, and the tar-
+ get is immobilized until the end of your next turn.
+Effect: The target takes a -2 penalty to Will defense (save
+ ends).
+NULL
+Flames of Phlegthos 
+Daily * Arcane, Fire, Implement (Infernal)
+Standard Action         Ranged 10
+Target: One creature
+Attack: Constitution vs. Reflex
+Hit: 3d10 + Constitution modifier fire damage.
+Effect: The target takes ongoing 5 fire damage (save ends).
+NULL
+warlockUtility2
+Beguiling Tongue
+Encounter * Arcane (Fey)
+Minor Action          Personal
+Effect: You gain +5 power bonus to your next Bluff, Diplo-
+ macy, or Intimidate check during this encounter.
+NULL
+Ethereal Stride
+Encounter * Arcane, Teleportation (Star)
+Move Action          Personal
+Effect: You can teleport 3 squares, and you gain a +2 power
+ bonus to all defenses until the end of your next turn.
+NULL
+Fiendish Resilience
+Daily * Arcane (Infernal)
+Minor Action          Personal
+Effect: You gain temporary hit points equal to 5 + your Con-
+ stitution modifier.
+NULL
+Shadow Veil
+Encounter * Arcane, Illusion (Star)
+Minor Action          Personal
+Effect: You gain a +5 power bonus to Stealth checks until
+ the end of your next turn.
+NULL
+warlockEncounter3
+Eldritch Rain
+Encounter * Arcane, Implement (Fey)
+Standard Action         Ranged 10
+Target: One creature, or two creatures no more than 5
+ squares apart from each other.
+Attack: Charisma vs. Reflex, one attack per target
+Hit: 1d10 + Charisma modifier damage.
+ Fey Pact: Gain a bonus to each attack's damage roll equal to
+ your Intelligence modifier.
+NULL
+Fiery Bolt
+Encounter * Arcane, Fire, Implement (Infernal)
+Standard Action         Ranged 10
+Target: One creature
+Attack: Constitution vs. Reflex
+Hit: 3d6 + Constitution modifier fire damage, and creatures
+ adjacent to the target take 1d6 + Constitution modifier
+ fire damage.
+ Infernal Pact: Creatures adjacent to the target take extra
+ fire damage equal to your Intelligence modifier.
+NULL
+Frigid Darkness
+Encounter * Arcane, Cold, Fear, Implement (Star)
+Standard Action         Ranged 10
+Target: One creature
+Attack: Constitution vs. Fortitude
+Hit: 2d8 + Constitution modifier cold damage, and the tar-
+ get grants combat advantage to all of your enemies until
+ the end of your next turn.
+ Star Pact: The target takes a penalty to AC equal to your
+ Intelligence modifier.
+NULL
+Otherwind Stride
+Encounter * Arcane, Implement, Teleportation (Fey)
+Standard Action         Close burst 1
+Target: Each creature in burst
+Attack: Charisma vs. Fortitude
+Hit: 1d8 + Charisma modifier damage, and the target is im-
+ mobilized until the end of your next turn.
+Effect: You teleport 5 squares.
+ Fey Pact: You teleport a number of squares equal to 5 +
+ your Intelligence modifier.
+NULL

@@ -1,0 +1,160 @@
+Bolstering Strike
+At-Will * Divine, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Charisma vs. AC 
+Hit: 1[W] + Charisma modifier damage, and you gain tem-
+ porary hit points equal to your Wisdom modifier.
+Increase damage to 2[W] + Charisma modifier at 21st level.
+NULL
+Enfeebling Strike
+At-Will * Divine, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Charisma vs. AC
+Hit: 1[W] + Charisma modifier damage. If you marked the
+ target, it takes a -2 penalty to attack rolls until the end of
+ your next turn.
+Increase damage to 2[W] + Charisma modifier at 21st level.
+NULL
+Holy Strike
+At-Will * Divine, Radiant, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 1[W] + Strength modifier radiant damage. If you
+ marked the target, you gain a bonus to the damage roll
+ equal to your Wisdom modifier.
+Increase damage to 2[W] + Strength modifier at 21st level.
+NULL
+Valiant Strike
+At-Will * Divine, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength + 1 per enemy adjacent to you vs. AC
+Hit: 1[W] + Strength modifier damage.
+Increase damage to 2[W] + Strength modifier damage at 21st level.
+NULL
+Fearsome Smite
+Encounter * Divine, Fear, Weapon 
+Standard Action		Melee weapon
+Target: One creature
+Attack: Charisma vs. AC
+Hit: 2[W] + Charisma modifier damage. Until the end of
+ your next turn, the target takes a penalty to attack rolls
+ equal to your Wisdom modifier.
+NULL
+Piercing Smite
+Encounter * Divine, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength vs. Reflex
+Hit: 2[W] + Strength modifier damage, and the target and a
+ number of enemies adjacent to you equal to your Wisdom
+ modifier are marked until the end of your next turn.
+NULL
+Radiant Smite
+Encounter * Divine, Radiant, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 2[W] + Strength modifier + Wisdom modifier radiant
+ damage.
+NULL
+Shielding Smite
+Encounter * Divine, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Charisma vs. AC 
+Hit: 2[W] + Charisma modifier damage.
+Effect: Until the end of your next turn, one ally within 5
+ squares of you gains a power bonus to AC equal to your
+ Wisdom modifier.
+NULL
+On Pain of Death
+Daily * Divine, Implement
+Standard Action		Ranged 5
+Target: One creature
+Attack: Charisma vs. Will
+Hit: 3d8 + Charisma modifier damage. Once per round, the
+ target takes 1d8 damage after making any attacks on its
+ turn (save ends).
+Miss: Half damage. Once per round, the target takes 1d4
+ damage after making any attacks on its turn (save ends).
+NULL
+Paladin's Judgement
+Daily * Divine, Healing, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 3[W] + Strength modifier damage, and one ally within
+ 5 squares of you can spend a healing surge.
+Miss: One ally within 5 squares of you can spend a healing
+ surge.
+NULL
+Radiant Delirium
+Daily * Divine, Implement, Radiant
+Standard Action		Ranged 5
+Target: One creature
+Attack: Charisma vs. Reflex
+Hit: 3d8 + Charisma modifier radiant damage, and the
+ target is dazed until the end of your next turn. In addition,
+ the target takes a -2 penalty to AC (save ends).
+Miss: Half damage, and the target is dazed until the end of
+ your next turn.
+NULL
+Astral Speech
+Daily * Divine
+Minor Action		Personal
+Effect: You gain a +4 power bonus to Diplomacy checks
+ until the end of the encounter.
+NULL
+Martyr's Blessing
+Daily * Divine
+Immediate Interrupt	Close burst 1
+Trigger: An adjacent ally is hit by a melee or a ranged attack
+Effect: You are hit by the attack instead.
+NULL
+Sacred Circle
+Daily * Divine, Implement, Zone
+Standard Action		Close burst 3
+Effect: The burst creates a zone that, until the end of the
+ encounter, gives you and allies within it a +! power bonus
+ to AC.
+NULL
+Arcing Smite
+Encounter * Divine, Weapon
+Standard Action		Melee weapon
+Target: One or two creature
+Attack: Strength vs. AC, one attack per target
+Hit: 1[W] + Strength modifier damage, and the target is
+marked until the end of your next turn.
+NULL
+Invigorating Smite
+Encounter * Divine, Healing, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Charisma vs. Will
+Hit: 2[W] + Charisma modifier damage. If you are bloodied,
+ you regain hit points equal to 5 + your Wisdom modifier.
+ Bloodied allies within 5 squares of you also regain hit
+ points equal to 5 + your Wisdom modifier.
+NULL
+Righteous Smite
+Encounter * Divine, Healing, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Charisma vs. AC
+Hit: 2[W] + Charisma modifier damage, and you and each
+ ally within 5 squares of you gain temporary hit points
+ equal to 5 + your Wisdom modifier.
+NULL
+Staggering Smite
+Encounter * Divine, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength vs. AC 
+Hit: 2[W] + Strength modifier damage, and you push
+ the target a number of squares equal to your Wisdom
+ modifier.
+NULL

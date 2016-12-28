@@ -1,0 +1,219 @@
+Combat Leader
+You and each ally within 10 squares who can see and
+hear you gain a +2 power bonus to initiative.
+Commanding Presence
+Choose one of the following two benefits.
+  Insipring Presence: When an ally who can see
+you spends an action point to take an extra action, that
+ally also regains lost hit points equal to one-half your
+level + your Charisma modifier.
+NULL
+Inspiring Word
+Encounter(Special) * Martial, Healing
+Special: You can use this power twice per encounter, but only
+ once per round. At 16th level, you can use inspiring word
+ three times per encounter.
+Minor Action           Close burst 5
+                       (10 at 11th level, 15 at 21st level)
+Target: You or one ally in burst
+Effect: The target can spend a healing surge and regain an
+ additional 1d6 hit points
+The amount of additional hit points regained is 2d6 at 6th
+ level, 3d6 at 11th level, 4d6 at 16th level, 5d6 at 21st level,
+ and 626 at 26th level.
+NULL
+Commander's Strike
+At-Will * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: An ally of your choice makes a melee basic attack
+ against the target
+Hit: Ally's basic attack damage + your Intelligence modifier.
+NULL
+Furious Smash
+At-Will * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. Fortitude
+Hit: Deal damage equal to your Strength modifier, and then
+ choose one ally adjacent to either you or the target. This
+ ally applies your Charisma modifier as a power bonus to
+ the attack roll and the damage roll on his or her next at-
+ tack against the target. If the ally does not attack the tar-
+ get by the end of his or her next turn, the bonus is lost.
+NULL
+Viper's Strike
+At-Will * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 1[W] + Strength modifier damage.
+Increase damage to 2[W] + Strength modifier at 21st level.
+Effect: If the target shifts before the start of your next turn,
+ it provokes an opportuinity attack from an ally of your
+ choice.
+NULL
+Wolf Pack Tactics
+At-Will * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Special: Before you attack, you let one ally adjacent to either
+ you or the target shift 1 square as a free action.
+Attack: Strength vs. AC
+Hit: 1[W] + Strength modifier damage.
+Increase damage to 2[W] + Strength modifier at 21st level.
+NULL
+Guarding Attack
+Encounter * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 2[W] + Strength modifier damage. Until the end of your
+ next turn, one ally adjacent to either you or the target
+ gains a +2 power bonus to AC against the target's attack.
+ Inspiring Presence: The power bonus to AC equals 1 + your
+ Charisma modifier.
+NULL
+Hammer and Anvil
+Encounter * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. Reflex
+Hit: 1[W] + Strength modifier damage. One ally adjacent
+ to the target makes a melee basic attack against it as a
+ free action. The ally adds your Charisma modifier to the
+ damage.
+NULL
+Leaf on the Wind
+Encounter * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 2[W] + Strength modifier damage. You or an ally adj-
+ cent to the target swaps places with the target.
+NULL
+Warlord's Favor
+Encounter * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 2[W] + Strength modifier damage. One ally within 5
+ squares of you gains a +2 power bonus to attack rolls
+ against the target until the end of your next turn
+ Tactical Presence: The bonus to attack rolls that you grant
+ equals 1+ your Intelligence modifier.
+NULL
+Bastion of Defence
+Daily * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 3[W] + Strength modifier damage. Allies within 5
+ squares of you gain a +1 power bonus to all defences until
+ the end of the encounter.
+Effect: Allies within 5 squares of you gain temporary hit
+ points equal to 5+ your Charisma modifier.
+NULL
+Lead the Attack
+Daily * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 3[W] + Strength modifier damage. Until the end of the
+ encounter, you and each ally within 5 squares of you gain
+ power bonus to attack rolls against the target equal to 1
+ + your Intelligence modifier.
+Miss: Until the end of the encounter, you and each ally within
+ 5 squares of you gain a +1 power bonus to attack rolls
+ against the target.
+NULL
+Pin the Foe
+Daily * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 3[W] + Strength modifier damage.
+Effect: Until the end of the encounter, the target cannot
+ shift if at least two of your allies (or you and one ally) are
+ adjacent to it.
+NULL
+White Raven Onslaught
+Daily * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 3[W] + Strength modifier damage, and you slide an
+ adjacent ally 1 square. Until the end of the encounter,
+ whenever you or an ally within 10 squares of you makes
+ a successful attack, the attack slides an adjacent ally
+ 1 square.
+Miss: Choose one ally within 10 squares. Until the end of
+ the encounter, the ally slides an adjacent ally 1 square after
+ making a successful attack.
+NULL
+Aid the Injured
+Encounter * Healing, Martial
+Standard Action        Melee touch
+Target: You or one adjacent ally
+Effect:The target can spend a healing surge.
+NULL
+Crescendo of Violence
+Encounter * Martial
+Immediate Reaction   Ranged 5
+Trigger: An ally within range scores a critical hit.
+Effect: The ally gains temporary hit points equal to your
+ Charisma modifier.
+NULL
+Knight's Move
+Encounter * Martial
+Move Action           Ranged 5
+Target: One ally
+Effect: The target takes a move action as a free action.
+NULL
+Shake it Off
+Encounter * Martial
+Minor Action          Ranged 10
+Target: You or one ally
+Effect: The target makes a saving throw with a power bonus
+ equal to your Charisma modifier
+NULL
+Hold the Line
+Encounter * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 1[W] + Strength modifier damage.
+Effect: Until the end of your next turn, allies adjacent to you
+ gain a +2 power bonus to AC and cannot be pulled, pushed,
+ or slid.
+NULL
+Inspiring War Cry
+Encounter * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit 2[W] + Strength modifier damage.
+Effect: One ally who can hear you and is within 5 squares of
+ you makes a saving throw.
+NULL
+Steel Monsoon
+Encounter * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 2[W] + Strength modifier damage, and one ally within
+ 5 squares of you can shift 1 square.
+ Tactical Presence: The number of allies who can shift
+ equals your Intelligence modifier.
+NULL
+Warlord's Strike
+Encounter * Martial, Weapon
+Standard Action        Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 2[W] + Strength modifier damage. Until the end of your
+ next turn, all of your allies gain a +2 bonus to damage rolls
+ against the target.
+ Inspiring Presence: The bonus to damage rolls equals 1 +
+ your Charisma.
+NULL
