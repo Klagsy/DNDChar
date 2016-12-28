@@ -1,8 +1,51 @@
-Channel Divinity
-Once per encounter you can invoke divine power, fill-
-Ing yourself with the might of your patron deity. With
-the divine might you invoke you can wield special
-powers, such as turn undead and divine fortune.
+Channel Divinity: Divine Fortune
+Encounter * Divine
+Free Action		Personal
+Effect: You gain a +1 bonus to your next attack roll or saving
+ throw before the end of your next turn.
+NULL
+Channel Divinity: Turn Undead
+Encounter * Divine, Implement, Radiant
+Standard Action		Close burst 2
+			(5 at 11th level, 8 at 21st level)
+Target: Each undead creature in burst
+Attack: Wisdom vs. Will
+Hit: 1d10 + Wisdom modifier radiant damage, and you
+ push the target a number of squares equal to 3 + your
+ Charisma modifier. The target is immobilized until the end
+ of your next turn.
+Increase damage to 2d10 + Wisdom modifier at 5th level,
+ 3d10 + Wisdom modifier at 11th level, 4d10 + Wisdom
+ modifier at 15th level, 5d10 + Wisdom modifier at 21st
+ level, and 6d10 + Wisdom modifier at 25th level.
+Miss: Half damage, and the target is not pushed or 
+ immobilized 
+NULL
+Healing Word
+Encounter (Special) * Divine, Healing
+Special: You can use this power twice per encounter, but only
+ once per round. At 16th level, you can use this power three
+ times per encounter.
+Minor Action 		Close burst 5
+					(10 at 11th level, 15 at 21st level)
+Target: You or one ally
+Effect: The target can spend a healing surge and regain an
+ additional 1d6 hit points.
+Increase the amount of additional hit points regained to 2d6
+ at 6th level, 3d6 at 11th level, 4d6 at 16th level, 5d6 at
+ 21st level, and 6d6 at 26th level.
+NULL
+Healer’s Lore
+When you grant healing with one of your cleric powers
+that has the healing keyword, add your Wisdom modifier
+to hit points the recipient regains.
+NULL
+Ritual Casting
+You gain the Ritual Caster feat as a bonus feat allowing
+you to use magical rituals. You possess a ritual book, 
+and it contains two rituals you have mastered: the 
+Gentle Repose ritual and one other 1st-level ritual
+of your choice.
 NULL
 Lance of Faith
 At-will * Divine, Implement, Radiant
