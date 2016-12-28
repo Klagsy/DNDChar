@@ -1,3 +1,68 @@
+Arcane Implement Mastery
+Choose one of the following forms of implement mastery.
+  Orb of Imposition: Once per encounter as a free
+action, you can use your orb to gain one of the following
+two effects.
+ You can designate one creature you have cast a
+wizard spell upon that has an effect that lasts until
+the subject succeeds on a saving throw. That creature
+takes a penalty to its saving throws against that effect
+equal to your Wisdom modifier.
+ Alternatively, you can choose to extend the duration
+of an effect created by a wizard at-will spell (such as
+cloud of daggers or ray of frost) that would otherwise end
+at the end of your current turn. The effect instead ends
+at the end of your next turn.
+ You must wield an orb to use this ability. Control
+wizards select this form of mastery because it helps
+extend the duration of their control effects.
+Staff of Defense: A staff of defense grants you
+a +1 bonus to AC. In addition, once per encounter
+as an immediate interrupt, you gain a bonus to
+defense against one attack equal to your Constitution
+modifier. You can declare the bonus after the
+Dungeon Master has already told you the damage
+total. You must wield your staff to benefit from these
+features. This form of mastery is useful for all wizards,
+particularly if you dabble in both control and
+damage-dealing spells.
+Wand of Accuracy: Once per encounter as a free
+action, you gain a bonus to a single attack roll equal to
+your Dexterity modifier. You must wield your wand to
+benefit from this feature. This form of mastery is good
+for war wizards because it helps increase their accuracy
+with damaging powers.
+NULL
+Ritual Casting
+You gain the Ritual Caster feat as a bonus feat
+allowing you to use magical rituals.
+NULL
+Spellbook
+You possess a spellbook, a book full of mystic lore in
+which you store your rituals and your daily and utility
+spells.
+Rituals: Your book contains three 1st-level rituals
+of your choice that you have mastered.
+ At 5th level, and again at 11th, 15th, 21st, and 25th
+level, you master two more rituals of your choice and
+add them to your spellbook. Any ritual you add must
+be your level or lower.
+Daily and Utility Spells: Your spellbook also
+holds your daily and utility spells. You begin knowing
+two daily spells, one of which you can use on any given
+day. Each time you gain a level that lets you select a
+daily spell or a utility spell, choose two different daily
+spells or utility spells of that level to add to your book.
+After an extended rest, you can prepare a number of
+daily and utility spells according to what you can cast
+per day for your level. You can’t prepare the same spell
+twice.
+ If you replace a spell because of gaining a level or
+through retraining, the previous spell vanishes from
+your spellbook and is replaced by the new spell.
+   Capacity: A typical spellbook has 128 pages. Each
+spell takes up 1 page. A ritual takes up a number of
+pages equal to its level.
 Ghost Sound
 At- Will * Arcane, Illusion
 Standard Action          Ranged 10
