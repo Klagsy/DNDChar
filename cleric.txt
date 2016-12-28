@@ -3,6 +3,7 @@ Once per encounter you can invoke divine power, fill-
 Ing yourself with the might of your patron deity. With
 the divine might you invoke you can wield special
 powers, such as turn undead and divine fortune.
+NULL
 Lance of Faith
 At-will * Divine, Implement, Radiant
 Standard Action		Ranged 5
