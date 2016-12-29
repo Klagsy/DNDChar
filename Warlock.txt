@@ -1,12 +1,48 @@
-warlockAtWill
-Dire Radiance
-At-Will * Arcane, Fear, Implement, Radiant (Star)
-Standard Action         Ranged 10
-Target: One creature
-Attack: Constitution vs. Fortitude
-Hit: 1d6 + Constitution modifier radiant damage. if the tar-
- get moves nearer to you on its next turn, it takes an extra
- 1d6 + Constitution modifier damage.
+Prime Shot
+If none of your allies are nearer to your target than
+you are, you receive a +1 bonus to ranged attack rolls
+against that target.
+NULL
+Shadow Walk
+On your turn, if you move at least 3 squares away from
+where you started your turn, you gain concealment
+until the end of your next turn.
+NULL
+Warlock’s Curse
+Once per turn as a minor action, you can place a
+Warlock’s Curse on the enemy nearest to you that
+you can see. A cursed enemy is more vulnerable to
+your attacks. If you damage a cursed enemy, you deal
+extra damage. You decide whether to apply the extra
+damage after making the damage roll. You can deal
+this extra damage once per round.
+ A Warlock’s Curse remains in effect until the end of
+the encounter or until the cursed enemy drops to 0 hit
+points or fewer.
+ You can place a Warlock’s Curse on multiple targets
+over the course of an encounter; each curse requires
+the use of a minor action. You can’t place a Warlock’s
+Curse on a creature that is already affected by your or
+another character’s Warlock’s Curse. As you advance in 
+level, your extra damage increases
+Level 			Warlock's Curse Extra Damage
+1st-10th					+1d6
+11th-20th					+2d6
+21st-30th					+3d6
+NULL
+Implements
+Warlocks make use of rods and wands to help channel
+and direct their arcane powers. A warlock wielding
+a magic rod or wand can add its enhancement bonus
+to the attack rolls and the damage rolls of warlock
+powers, as well as warlock paragon path powers,
+that have the implement keyword. Without a rod or
+a wand, a warlock can still use these powers, but he
+or she doesn’t gain the bonus provided by the magic
+implement.
+ A pact blade, a special magic dagger, can also be
+used as an implement for warlock powers, as well as
+warlock paragon powers. 
 NULL
 Eldritch Blast
 At-Will * Arcane, Implement (All)
@@ -22,6 +58,15 @@ Special: At 1st level, you determine wether you use Cha-
   This power counts as a ranged basic attack. When a 
  power allows you to make a ranged basic attack, you can
  use this power.
+NULL
+Dire Radiance
+At-Will * Arcane, Fear, Implement, Radiant (Star)
+Standard Action         Ranged 10
+Target: One creature
+Attack: Constitution vs. Fortitude
+Hit: 1d6 + Constitution modifier radiant damage. if the tar-
+ get moves nearer to you on its next turn, it takes an extra
+ 1d6 + Constitution modifier damage.
 NULL
 Eyebite
 At-Will * Arcane, Charm, Implement, Psychic (Fey)
@@ -43,7 +88,6 @@ Hit: 1d6 + Constitution modifier fire damage. If you take
 Increase damage and extra damage to 2d6 + Constitution
  modifier at 21st level.
 NULL
-warlockEncounter
 Diabloic Grasp
 Encounter * Arcane, Implement (Infernal)
 Standard Action         Ranged 10
@@ -86,7 +130,6 @@ Hit: 2d6 + Charisma modifier fire damage, and the target
  Fey Pact: The penalty to attack rolls is equal to 2+ your
  Intelligence modifier.
 NULL
-warlockDaily
 Armor of Agathys
 Daily * Arcane, Cold (Infernal)
 Standard Action         Personal
