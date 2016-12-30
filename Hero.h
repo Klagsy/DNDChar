@@ -31,6 +31,8 @@ class Hero
   public:
 
     Hero(int s, int c, int d, int i, int w, int ch, int l, std::string na, std::string cl, std::string ra);
+    void Special();
+    //Special(std::string f, int z);
 
 
     //any function with add will add an amount to an ability score
@@ -292,35 +294,11 @@ class Hero
     std::string getVision() const
     { return vision; }
     
-    void setSpecial (std::string p, int sp)
-    { special[sp] += p; }
+    void setSpecial (std::string p, int sp);
 
-    void showSpecials (std::string f, int y, int z)
-    {
-      std::ifstream file;
-      file.open(f, std::ios::in);
-      for ( int x = 0; x<z; x++)
-        getline(file, test);
+    void showSpecials (std::string f, int z);
 
-      for ( int x = 0; x < y; x++) //there are only 3 rogue dailies
-      { 
-        while (true)
-        {
-          getline (file, test); //get a line from the file store it in test
-          if (test == "NULL\r")
-            test.pop_back();
-          if (test == "NULL")
-            break;
-          setSpecial("\n", x); //add newline character to whole
-          setSpecial(test, x); //add test to whole
-        }
-        std::cout << x + 1 << ". " << getSpecial(x+1) << std::endl << std::endl;
-      }
-    file.close();
-    }
-    
-    std::string getSpecial (int sp)
-    { return special[sp]; }
+    std::string getSpecial (int sp);
 
     void setatWill(std::string p, int i)
     { aw[i]+= p; }
@@ -412,7 +390,6 @@ class Hero
     std::string getDaily(int i)
     { return d[i-1]; }
 };
-
 Hero::Hero(int s, int c, int d, int i, int w, int ch, int l, std::string na, std::string cl, std::string ra)
 {
   str = s; //initialzing all of the ability scores
@@ -465,6 +442,6 @@ Hero::Hero(int s, int c, int d, int i, int w, int ch, int l, std::string na, std
   race = ra;
   //might be more things we can initialize here, but i'm unsure,
   //lets leave this like this for now
-}
+};
 
 #endif

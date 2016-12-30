@@ -17,10 +17,11 @@
 #include <fstream>
 using namespace std;
 
-
-
 int main()
 {
+  int WarlockSpecials = 5;
+  string WarlockFile = "Warlock.txt";
+  showSpecials warlock(WarlockFile, WarlockSpecials);
 
   cout << "Hello and welcome to the D&D 4e character builder, helping"
        << " create characters since 1882\nPlease ensure that you "
@@ -28,7 +29,7 @@ int main()
 
   cout << "\nTo start with, what is your characters name? ";
 
-  string name, clas, race, special[5]; //create strings we will need for user input
+  string name, clas, race; //create strings we will need for user input
   int str, con, dex, intel, wis, cha, lvl, atWillA, atWillB, atWillC, encounter, daily; //create ints to store input
   string roles[8]={"cleric", "fighter", "paladin", "ranger", "rogue", "warlock", "warlord", "wizard"};
   bool roleChosen=false;
@@ -38,62 +39,64 @@ int main()
    while (roleChosen==false)
    {
      if (clas == "cleric"){
-   	 cout <<"As a cleric you are the pious backbone of the party, \n"
-  		    <<"smiting undead and healing your allies. If playing a \n"
-  		    <<"man of the faith who leads his men to victory with a \n"
-  		    <<"mace in one hand and a holy symbol in the other, than \n"
-  		    <<"the Cleric is the class for you.";
+     cout <<"As a cleric you are the pious backbone of the party, \n"
+          <<"smiting undead and healing your allies. If playing a \n"
+          <<"man of the faith who leads his men to victory with a \n"
+          <<"mace in one hand and a holy symbol in the other, than \n"
+          <<"the Cleric is the class for you.";
     } else if (clas== "fighter"){
 
     } else if(clas == "paladin"){
 
     } else if (clas == "ranger"){     
-  	 cout <<"As a ranger you are the watchful warrior in the back\n"
-  		    <<"of the party, always on the lookout. If playing as a\n"
-  		    <<"keen eyed huntsman who is attuned with nature, and can\n"
-  		    <<"snipe someone down from great distances with a longbow\n"
-  		    <<"or bring enemies down with a flurry of strikes from your\n"
-  		    <<"twin blades sound good to you, than the Ranger is the \nclass for you.\n";
+     cout <<"As a ranger you are the watchful warrior in the back\n"
+          <<"of the party, always on the lookout. If playing as a\n"
+          <<"keen eyed huntsman who is attuned with nature, and can\n"
+          <<"snipe someone down from great distances with a longbow\n"
+          <<"or bring enemies down with a flurry of strikes from your\n"
+          <<"twin blades sound good to you, than the Ranger is the \nclass for you.\n";
 
-  	 cout <<"As a ranger, you get a couple of key class features:\n";
+     cout <<"As a ranger, you get a couple of key class features:\n";
 
-  	 ifstream file;
-  	 file.open("Ranger.txt", ios::in);
+     ifstream file;
+     file.open("Ranger.txt", ios::in);
 
-  	 for (int x=0; x<3; x++)
-  	 {
-  		  while(true)
-  		  {
-          getline (file, test); 
-          	test.pop_back();
-          if (test =="NULL")
-            break;
-          special[x] +="\n";
-          special[x] += test; 
-  		  }
-  	 	 cout <<x+1 <<". " << special[x] <<endl <<endl;
-  	 }
-  	 cout <<"Do you want to play a ranger? <y/n>\n";
-  	 string decision;
-  	 cin >> decision;
-  	 if (decision=="y")
-  	 {
-  		  int stance;
-  		  cout <<"Sounds good! Would you like to be a Ranger that\n"
-  			     <<"wields a bow, and get access to Defensive Mobility\n"
-  			     <<"as a feat? Or would you like the take on your enemies\n"
-  			     <<"with two swords, and gain Toughness as a bonus feight?";
-  		  cin >> stance;
+     // for (int x=0; x<3; x++)
+     // {
+     //    while(true)
+     //    {
+     //      string test;
+     //      getline (file, test); 
+     //        test.pop_back();
+     //      if (test =="NULL")
+     //        break;
+     //      special[x] +="\n";
+     //      special[x] += test; 
+     //    }
+     //   cout <<x+1 <<". " << special[x] <<endl <<endl;
+     //}
+     cout <<"Do you want to play a ranger? <y/n>\n";
+     string decision;
+     cin >> decision;
+     if (decision=="y")
+     {
+        int stance;
+        cout <<"Sounds good! Would you like to be a Ranger that\n"
+             <<"wields a bow, and get access to Defensive Mobility\n"
+             <<"as a feat? Or would you like the take on your enemies\n"
+             <<"with two swords, and gain Toughness as a bonus feight?";
+        cin >> stance;
         roleChosen=true;
-  	 } else if (decision =="n")
-  	 {
-  		  cout <<"Thats too bad :(\n"
-  			     <<"What class would you like to play?";
-  		  getline (cin, clas);
-  	 } 
+     } else if (decision =="n")
+     {
+        cout <<"Thats too bad :(\n"
+             <<"What class would you like to play?";
+        getline (cin, clas);
+     } 
      } else if (clas == "rogue"){
 
      } else if (clas == "warlock"){
+      roleChosen=true;
 
      } else if (clas =="warlord"){
 
@@ -294,13 +297,13 @@ int main()
     //output this info to a file later
     if (humanC==1)
     {
-      cout << "Oh sorry, I forgot that you're a human, pick one more";
+      cout << "Oh sorry, I forgot that you're a human, pick one more ";
       cin >> atWillC;
     }
-    main.showEncounters("Cleric.txt", 91, 4)
+    main.showEncounters("Cleric.txt", 91, 4);
     cout << "Okay, now time to pick one encounter power ";
     cin >> encounter;
-    main.showDailies("Cleric.txt", 128, 4)
+    main.showDailies("Cleric.txt", 128, 4);
     cout << "And finally pick your daily ";
     cin >> daily;
 
@@ -315,13 +318,13 @@ int main()
     //output this info to a file later
     if (humanC==1)
     {
-      cout << "Oh sorry, I forgot that you're a human, pick one more";
+      cout << "Oh sorry, I forgot that you're a human, pick one more ";
       cin >> atWillC;
     }
-    main.showEncounters("Fighter.txt", 59, 4)
+    main.showEncounters("Fighter.txt", 59, 4);
     cout << "Okay, now time to pick one encounter power ";
     cin >> encounter;
-    main.showDailies("Fighter.txt", 94, 3)
+    main.showDailies("Fighter.txt", 94, 3);
     cout << "And finally pick your daily ";
     cin >> daily;
  } else if (clas =="paladin") {
@@ -330,14 +333,14 @@ int main()
     main.addWill(1);
     main.setHealth(15, main.getConMod());
     main.setSurges(10, main.getConMod());
-    main.showAtWills("Paladin.txt", 55, 4)
+    main.showAtWills("Paladin.txt", 55, 4);
      cout << "Here are your at wills please pick two by typing in the "
           << "corresponding numbers ";
      cin >> atWillA >> atWillB; //get user input that we will need to
      //output this info to a file later
      if (humanC==1)
      {
-       cout << "Oh sorry, I forgot that you're a human, pick one more";
+       cout << "Oh sorry, I forgot that you're a human, pick one more ";
        cin >> atWillC;
      }
     main.showEncounters("Paladin.txt", 92, 4);
@@ -354,14 +357,14 @@ int main()
     main.addReflex(1);
     main.setHealth(12, main.getConMod());
     main.setSurges(6, main.getConMod());
-    main.showAtWills("Ranger.txt", 29, 4)
+    main.showAtWills("Ranger.txt", 29, 4);
      cout << "Here are your at wills please pick two by typing in the "
           << "corresponding numbers ";
      cin >> atWillA >> atWillB; //get user input that we will need to
      //output this info to a file later
      if (humanC==1)
      {
-       cout << "Oh sorry, I forgot that you're a human, pick one more";
+       cout << "Oh sorry, I forgot that you're a human, pick one more ";
        cin >> atWillC;
      }
     main.showEncounters("Ranger.txt", 72, 4);
@@ -377,20 +380,20 @@ int main()
     main.addReflex(2);
     main.setHealth(12, main.getConMod());
     main.setSurges(6, main.getConMod());
-    main.showAtWills("Rogue.txt", 26, 4)
+    main.showAtWills("Rogue.txt", 26, 4);
      cout << "Here are your at wills please pick two by typing in the "
           << "corresponding numbers ";
      cin >> atWillA >> atWillB; //get user input that we will need to
      //output this info to a file later
      if (humanC==1)
      {
-       cout << "Oh sorry, I forgot that you're a human, pick one more";
+       cout << "Oh sorry, I forgot that you're a human, pick one more ";
        cin >> atWillC;
      }
     main.showEncounters("Rogue.txt", 72, 4);
 
-     cout << "Okay, now time to pick one encounter power ";
-     cin >> encounter;
+    cout << "Okay, now time to pick one encounter power ";
+    cin >> encounter;
 
     main.showDailies("Rogue.txt", 112, 3);
 
@@ -399,10 +402,34 @@ int main()
 
 
  } else if (clas =="warlock") {
-     main.addReflex(1);
-     main.addWill(1);
-     main.setHealth(12, main.getConMod());
-     main.setSurges(6, main.getConMod());
+    main.addReflex(1);
+    main.addWill(1);
+    main.setHealth(12, main.getConMod());
+    main.setSurges(6, main.getConMod());
+    atWillA=1;
+    main.showAtWills("Warlock.txt", 46, 4);
+    cout <<"Here are your at wills, you already have Eldritch Blast,"
+         <<" pick one more ";
+    cin >>atWillB;
+    if (atWillB==1)
+    {
+      cout <<"You can't pick Eldritch Blast again, pick another power ";
+      cin >>atWillB;
+    }
+    if (humanC==1)
+    {
+      cout <<"Oh sorry, I forgot that you're a human, pick one more ";
+      cin >> atWillC;
+    }
+
+    main.showEncounters("Warlock.txt", 100, 4);
+    cout << "Okay, now time to pick one encounter power ";
+    cin >> encounter;
+
+    main.showDailies("Warlock.txt", 132, 4);
+    cout <<"And finally pick your daily ";
+    cin >>daily;
+
 } else if (clas =="warlord") {
     main.addFort(1);
     main.addWill(1);
@@ -421,14 +448,14 @@ int main()
     main.showEncounters("Warlord.txt", 65, 4);
     cout << "Okay, now time to pick one encounter power ";
     cin >> encounter;
-    main.showDailies("Warlord.txt", 105, 3)
+    main.showDailies("Warlord.txt", 105, 3);
     cout << "And finally pick your daily ";
     cin >> daily;
    } else if (clas =="wizard") {
     main.addWill(2);
     main.setHealth(10, main.getConMod());
     main.setSurges(6, main.getConMod());
-    main.showAtWills("Wizard.txt", 129, 5)
+    main.showAtWills("Wizard.txt", 129, 5);
     cout << "Here are your at wills please pick two by typing in the "
         << "corresponding numbers ";
     cin >> atWillA >> atWillB; //get user input that we will need to
@@ -438,11 +465,10 @@ int main()
       cout << "Oh sorry, I forgot that you're a human, pick one more";
       cin >> atWillC;
     }
-    main.showEncounters("Wizard.txt", 183, 5)
+    main.showEncounters("Wizard.txt", 183, 5);
     cout << "Okay, now time to pick one encounter power ";
     cin >> encounter;
-    main.showDailies("Wizard.txt", 228, 4)
-
+    main.showDailies("Wizard.txt", 228, 4);
     cout << "And finally pick your daily ";
     cin >> daily;
   }
@@ -472,7 +498,9 @@ int main()
   cout <<"\nThese are your healing surges: " <<main.getSurges();
   main.setGold(100);
   cout << "\n" << main.getGold();
-  cout << "\n" << main.getDaily(daily) <<endl;  
+  cout << "\n" << main.getDaily(daily) <<endl; 
+  cout <<"\n" << main.getatWill(atWillA) <<endl;
+  cout <<"\n" << main.getatWill(atWillB) <<endl; 
   //now we need to have a series of if / else checking what their
   //class is and comparing that to the character, also race
 
@@ -480,3 +508,4 @@ int main()
   //and flavor info like gender, height, age, etc
   return 0;
 }
+
