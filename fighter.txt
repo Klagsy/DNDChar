@@ -1,0 +1,184 @@
+Combat Challenge
+Every time you attack an enemy, whether the attack hits or
+misses, you can choose to mark the target. The mark lasts
+till the end of your next turn. While a target is marked
+it takes a -2 penalty to attack rolls for any attack
+that doesn’t include you as a target. Whenever a marked
+enemy that is adjacent to you shifts or makes an attack
+that does not include you, you can make a melee basic 
+attack against that enemy as an immediate interrupt.
+NULL
+Combat Superiority
+You gain a bonus to opportunity attacks equal to your
+Wisdom modifier. An enemy struck by your opportunity
+attack stops moving, if a move provoked the attack.
+NULL
+Fighter Weapon Talent
+Choose either one-handed or two-handed weapons.
+When using a weapon of your chosen style, you gain a
++1 bonus to attack rolls.
+NULL
+Cleave
+At-Will * Martial, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 1[W] + Strength modifier damage, and an enemy adja-
+ cent to you takes damage equal to your Strength modifier.
+Increase damage to 2[W]+Strength modifier at 21st level.
+NULL
+Reaping Strike
+At-Will * Martial, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 1[W] + Strength modifier damage.
+Miss: Half Strength modifier damage. If you're wielding 
+ a two-handed weapon, you deal damage equal to your
+ Strength modifier.
+NULL
+Sure Strike
+At-Will * Martial, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength + 2 vs. AC
+Hit: 1[W] damage.
+Increase damage to 2[W] at 21st level.
+NULL
+Tide of Iron 
+At-Will * Martial, Weapon
+Standard Action		Melee weapon
+Requirement: You must be using a shield.
+Target: One creature
+Attack: Strength vs. AC
+Hit: 1[W]+Strength modifier damage. and you push the 
+ target 1 square if it is your size, smaller than you, or one
+ size category larger. You can shift into the space that the
+ target occupied.
+Increase damage to 2[W]+Strength modifier at 21st level.
+NULL
+Covering Attack
+Encounter * Martial, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 2[W] + Strength modifier damage, and an ally adjacent
+ to the target can shift 2 squares.
+NULL
+Passing Attack
+Encounter * Martial, Weapon
+Standard Action		Melee weapon
+Primary Target: One creature
+Attack: Strength vs. AC
+Hit: 1[W] + Strength modifier damage, and you can shift
+ 1 square. Make a secondary attack.
+ Secondary Target: One creature other than primary target
+ Secondary Attack: Strength +2 vs. AC
+ Hit: 1[W] + Strength modifier damage.
+NULL
+Spinning Sweep
+Encounter * Martial, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 1[W] + Strength modifier damage, and you knock the
+ target prone.
+NULL
+Steel Serpent Strike
+Encounter * Martial, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 2[W] + Strength modifier damage, and the target is
+ slowed and cannot shift until the end of your next turn.
+NULL
+Brute Strike
+Daily * Martial, Reliable, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Hit: 3[W] + Strength modifier damage.
+NULL
+Comeback Strike
+Daily * Healing, Martial, Reliable, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 2[W] + Strength modifier damage, and you can spend a
+ healing surge.
+NULL
+Villain's Menace
+Daily * Martial, Weapon
+Standard Action		Melee weapon
+Target: One Creature
+Attack: Strength vs. AC
+Hit: 2[W] + Strength modifier damage, and you gain a
+ +2 power bonus to attack rolls and a +4 power bonus 
+ to damage rolls against the target until the end of the 
+ encounter.
+Miss: Gain a +1 power bonus to attack rolls and a +2 power
+ bonus to damage rolls against the target until the end of the 
+ encounter.
+NULL
+Boundless Endurance
+Daily * Healing, Martial, Stance
+Minor Action		Personal
+Effect: You gain regeneration 2 + your Constitution modifier
+ when you are bloodied.
+Get Over Here
+Encounter * Martial
+Move Action			Melee 1
+Target: One willing adjacent ally
+Effect: You slide the target 2 squares to a square that is ad-
+jacent to you.
+NULL
+No Opening
+Encounter * Martial
+Immediate Interrupt	Personal
+Trigger: An enemy attacks you and has combat advantage
+ against you
+Effect: Cancel the combat advantage you were about to
+ grant to the attack
+NULL
+Unstoppable
+Daily * Healing, Martial
+Minor Action		Personal
+Effect: You gain temporary hit points equal to 2d6 + your
+ Constitutioni modifier.
+NULL
+Armor-Piercing Thrust
+Encounter * Martial, Weapon
+Standard Action		Melee weapon
+Target: One Creature
+Attack: Strength vs. Reflex
+ Weapon: If you're wielding a light blade or spear, you gain
+ a bonus to the attack roll equal to your Dexterity modifier.
+Hit: 1[W] + Strength modifier damage.
+ Weapon: If you're wielding a light blade or a spear, you gain
+ a bonus to the damage roll equal to your Dexterity modifier.
+NULL
+Crushing Blow
+Encounter * Martial, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 2[W] + Strength modifier damage.
+ Weapon: If you're wielding an axe, a hammer, or a
+ mace, you gain a bonus to the damage roll equal to your
+ Constitution modifier.
+NULL
+Dance of Steel
+Encounter * Martial, Weapon
+Standard Action		Melee weapon
+Target: One creature
+Attack: Strength vs. AC
+Hit: 2[W] + Strength modifier damage.
+ Weapon: If you're wielding a polearm or heavy blade, the
+ target is slowed until the end of your next turn.
+NULL
+Precise Strike
+Encounter * Martial, Weapon
+Standard Action		Melee weapon
+Target: One Creature
+Attack: Strength + 4 vs. AC
+Hit: 1[W] + Strength modifier damage.
+NULL
