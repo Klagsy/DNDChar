@@ -1,4 +1,4 @@
-Arcane Implement Mastery
+﻿Arcane Implement Mastery
 Choose one of the following forms of implement mastery.
   Orb of Imposition: Once per encounter as a free
 action, you can use your orb to gain one of the following
@@ -63,6 +63,7 @@ your spellbook and is replaced by the new spell.
    Capacity: A typical spellbook has 128 pages. Each
 spell takes up 1 page. A ritual takes up a number of
 pages equal to its level.
+NULL
 Ghost Sound
 At- Will * Arcane, Illusion
 Standard Action          Ranged 10

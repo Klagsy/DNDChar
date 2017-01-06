@@ -56,7 +56,7 @@ Hit: 1d8 + Wisdom modifier radiant damage, and one ally
  you can see gains a +2 power bonus to his or her next at
  tack roll against the target.
 Increase damage to 2d8 + Wisdom modifier at 21st level.
-///
+NULL
 Priest's Shield
 At-Will * Divine, Weapon
 Standard Action		Melee weapon
@@ -66,7 +66,7 @@ Hit: 1[W]+Strength modifier damage, and you and one
  adjacent ally gain a +1 power bonus to AC until the end of
  your next turn.
 Increase damage to 2[W] + Strength modifier at 21st level.
-///
+NULL
 Righteous Brand
 At-Will * Divine, Weapon
 Standard Action		Melee weapon
@@ -77,7 +77,7 @@ Hit: 1[W] + Strength modifier damage, and one ally within
  against the target equal to your Strength modifier until the
  end of your next turn.
 Increase damage to 2[W] + Strength modifier damage at 21st level.
-///
+NULL
 Sacred Flame
 At-Will * Divine, Implement, Radiant
 Standard Action		Ranged 5
@@ -88,7 +88,7 @@ Hit: 1d6 + Wisdom modifier radiant damage, an one ally
  equal to your Charisma modifier + one-half your level or 
  to make a saving throw.
 Increase damage to 2d6 + Wisdom modifier at 21st level.
-///
+NULL
 Cause Fear
 Encounter * Divine, Fear, Implement
 Standard Action		Ranged 10
@@ -98,7 +98,7 @@ Hit: The target move its speed + your Charisma modifier
  away from you. The fleeing target avoids unsafe squares
  and difficult terrain if it can. This movement provokes
  opportunity attacks.
-///
+NULL
 Divine Glow
 Encounter * Divine, Implement, Radiant
 Standard Action		Close blast 3
@@ -107,7 +107,7 @@ Attack: Wisdom vs. Reflex
 Hit: 1d8 + Wisdom modifier radiant damage.
 Effect: Allies in the blast gain a +2 power bonus to attack rolls
  until the end of your next turn.
-///
+NULL
 Healing Strike
 Encounter * Divine, Healing, Radiant, Weapon
 Standard Action		Melee weapon
@@ -117,7 +117,7 @@ Hit: 2[W]+Strength modifier radiant damage, and the
  target is marked until the end of your next turn. In
  addition, you or the one ally within 5 squares of you can
  spend a healing surge.
-///
+NULL
 Wrathful Thunder
 Encounter * Divine, Thunder, Weapon
 Standard Action		Melee weapon
@@ -125,7 +125,7 @@ Target: One creature
 Attack: Strength vs. AC
 Hit: 1[W]+Strength modifier thunder damage, and the
  target is dazed until the end of your next turn.
-///
+NULL
 Avenging Flame
 Daily * Divine, Fire, Weapon
 Standard Action		Melee weapon
@@ -135,7 +135,7 @@ Hit: 2[W]+Strength modifier damage, and ongoing 5 fire
  damage (save ends)
 Miss: Half damage, and no ongoing fire damage
 Special: If the target attacks on its turn, it can't attempt a saving throw against the ongoing damage.
-///
+NULL
 Beacon of Hope
 Daily * Divine, Healing, Implement
 Standard Action		Close burst 3
@@ -145,7 +145,7 @@ Hit: The target is weakened until the end of its next turn.
 Effect: You and all your allies in the burst regain 5 hit points,
  and your healing powers restore +5 hit points until the end 
  of the encounter.
-///
+NULL
 Cascade of Light
 Daily * Divine, Implement, Radiant
 Standard Action		Ranged 10
@@ -154,7 +154,7 @@ Attack: Wisdom vs. Will
 Hit: 3d8 + Wisdom modifier radiant damage, and the target
  gains vulnerability 5 to all your attacks (save ends).
 Miss: Half damage, and the target gains no vulnerability
-///
+NULL
 Guardian of Faith
 Daily * Conjuration, Divine, Implement, Radiant
 Standard Action		Ranged 5
@@ -165,28 +165,28 @@ Effect: You conjure a guardian that occupies 1 square within
  jured guardian is subject to a Wisdom vs. Fortitude attack.
  On a hit, the attack deals 1d8 + Wisdom modifier radiant
  damage.
-///
+NULL
 Bless
 Daily * Divine
 Standard Action 	Close burst 20
 Targets: You and each ally in burst.
 Effect: Until the end of the encounter, all targets gain a 
  +1 power bonus to attack rolls.
-///
+NULL
 Cure Light Wounds
 Daily * Divine, Healing
 Standard Action 	Melee touch
 Target: You or one creature
 Effect: The target regains hit points as if it had spent a heal-
  ing surge.
-///
+NULL
 Divine Aid
 Encounter * Divine
 Standard Action 	Ranged 5
 Target: You or one ally
 Effect: The target makes a saving throw with a bonus equal 
  to your Charisma modifier.
-///
+NULL
 Sanctuary
 Encounter * Divine
 Standard Action 	Ranged 10
@@ -194,14 +194,14 @@ Target: You or one creature
 Effect: The target receives a +5 bonus to all defenses. The
  effect lasts until the target attacks or until the end of your
  next turn.
-///
+NULL
 Shield of Faith
 Daily * Divine
 Standard Action 	Close burst 5
 Targets: You and each ally in burst
 Effect: The target gain a +2 power bonus to AC until the
  end of the encounter.
-///
+NULL
 Blazing Beacon
 Encounter * Divine, Radiant, Weapon
 Standard Action 	Melee weapon
@@ -210,7 +210,7 @@ Attack: Strength vs. AC
 Hit: 1[W]+Strength modifier radiant damage, and all
  ranged attack rolls against the target gain a +4 power bo-
  nus until the end of your next turn.
-///
+NULL
 Command
 Encounter * Charm, Divine, Implement
 Standard Action 	Ranged 10
@@ -220,7 +220,7 @@ Hit: The target is dazed until the end of your next turn. In
  addition, you can choose to knock the target prone or
  slide the target a number of squares equal to 3 + your
  Charisma modifier.
-///
+NULL
 Daunting Light
 Encounter * Divine, Implement, Radiant
 Standard Action 	Ranged 10
@@ -229,7 +229,7 @@ Attack: Wisdom vs. Reflex
 Hit: 2d10 + Wisdom modifier radiant damage.
 Effect: One ally you can see gains combat advantage against
  the target until the end of your next turn.
-///
+NULL
 Split the Sky
 Encounter * Divine, Thunder, Weapon
 Standard Action 	Melee weapon
@@ -237,5 +237,5 @@ Target: One creature
 Attack: Strength vs. Fortitude
 Hit: 1[W]+Strength modifier thunder damage, and you 
  push the target 2 squares and knock it prone.
-/// 
+NULL 
 

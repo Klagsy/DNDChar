@@ -4,12 +4,12 @@ hear you gain a +2 power bonus to initiative.
 NULL
 Commanding Presence
 Choose one of the following two benefits.
-  Insipring Presence: When an ally who can see
+  Inspiring Presence: When an ally who can see
 you spends an action point to take an extra action, that
 ally also regains lost hit points equal to one-half your
 level + your Charisma modifier.
   Tactical Presence: When an ally you can see
-soends an action point to make an extra attack, the
+spends an action point to make an extra attack, the
 ally gains a bonus to the attack roll equal to one-half
 your Intelligence modifier. 
 NULL

@@ -1,28 +1,13 @@
-
-
-//class still needs more work i intend on finishing tomorrow or the next
-//day, sleepy now if you want to experiment you can call a function
-//like this main.getInsight; or main.setAthletics(5); mess around with
-//it if you want, or mess around with stuff to make it easier
-//sorry if any of my notes are unclear
-
-
-
-
-
 #include "Hero.h"
 #include "Armors.h"
 #include <iostream>
 #include <string>
 #include <fstream>
 using namespace std;
+void UPPERCASE(string &s);
 
 int main()
 {
-  int WarlockSpecials = 5;
-  string WarlockFile = "Warlock.txt";
-  showSpecials warlock(WarlockFile, WarlockSpecials);
-
   cout << "Hello and welcome to the D&D 4e character builder, helping"
        << " create characters since 1882\nPlease ensure that you "
        << "enter any information correctly cause no going back!";
@@ -31,24 +16,89 @@ int main()
 
   string name, clas, race; //create strings we will need for user input
   int str, con, dex, intel, wis, cha, lvl, atWillA, atWillB, atWillC, encounter, daily; //create ints to store input
-  string roles[8]={"cleric", "fighter", "paladin", "ranger", "rogue", "warlock", "warlord", "wizard"};
   bool roleChosen=false;
   getline(cin, name);
   cout << "Really? Okay! What is your class (enter all lowercase) ";
   getline(cin,clas); //get user input
+  UPPERCASE(clas);
    while (roleChosen==false)
    {
-     if (clas == "cleric"){
+    Hero sp;
+    if (clas == "CLERIC"){
      cout <<"As a cleric you are the pious backbone of the party, \n"
           <<"smiting undead and healing your allies. If playing a \n"
           <<"man of the faith who leads his men to victory with a \n"
           <<"mace in one hand and a holy symbol in the other, than \n"
           <<"the Cleric is the class for you.";
-    } else if (clas== "fighter"){
 
-    } else if(clas == "paladin"){
+     cout <<"As a ranger, you get a couple of key class features:(Enter to continue)\n";
+     cin.get();
 
-    } else if (clas == "ranger"){     
+     sp.showSpecials("Cleric.txt", 5);
+
+     cout <<"Do you want to play a ranger? <y/n>\n";
+     char decision;
+     cin >> decision;
+     if (decision=='y')
+     {
+      cout <<"Sounds good!";
+      roleChosen=true;
+     } else if (decision =='n'){
+      cout <<"Thats too bad :(" <<endl
+           <<"What class would you like to play:";
+      getline(cin, clas);
+     }
+
+    } else if (clas== "FIGHTER"){
+      cout <<"flavortext";
+
+      cout <<"As a fighter, you get a couple of key class features:(Enter to continue)\n";
+      cin.get();
+
+      sp.showSpecials("Fighter.txt", 3);
+
+      cout <<"Do you want to play a fighter? <y/n>\n";
+      char decision;
+      cin >> decision;
+      if (decision=='y')
+      {
+        int stance;
+        cout <<"Sounds good! Would you like to be a Fighter that\n"
+             <<"wields a one-handed weapon or a two-handed weapon?\n"
+             <<"When using a weapon of your chosen style, you gain\n"
+             <<"a +1 bonus to attack rolls.";
+        cin >> stance;
+        roleChosen=true;
+      } else if (decision=='n')
+      {
+        cout <<"Thats too bad :(\n"
+             <<"What class would you like to play?";
+        getline(cin, clas);  
+      }
+
+    } else if(clas == "PALADIN"){
+      cout <<"Flaborbext";
+
+      cout <<"As a paladin, you get a couple of key class features:(Enter to continue)\n";
+      cin.get();
+
+      sp.showSpecials("Paladin.txt", 4);
+
+      cout <<"Do you want to play a paladin? <y/n>\n";
+      char decision;
+      cin >> decision;
+      if (decision=='y')
+      {
+        cout <<"Sounds good!";
+        roleChosen=true;
+      } else if (decision=='n')
+      {
+        cout <<"Thats too bad :(\n"
+             <<"What class would you like to play?";
+        getline(cin, clas);
+      }
+
+    } else if (clas == "RANGER"){     
      cout <<"As a ranger you are the watchful warrior in the back\n"
           <<"of the party, always on the lookout. If playing as a\n"
           <<"keen eyed huntsman who is attuned with nature, and can\n"
@@ -56,29 +106,15 @@ int main()
           <<"or bring enemies down with a flurry of strikes from your\n"
           <<"twin blades sound good to you, than the Ranger is the \nclass for you.\n";
 
-     cout <<"As a ranger, you get a couple of key class features:\n";
+     cout <<"As a ranger, you get a couple of key class features:(Enter to continue)\n";
+     cin.get();
 
-     ifstream file;
-     file.open("Ranger.txt", ios::in);
+     sp.showSpecials("Ranger.txt", 2);
 
-     // for (int x=0; x<3; x++)
-     // {
-     //    while(true)
-     //    {
-     //      string test;
-     //      getline (file, test); 
-     //        test.pop_back();
-     //      if (test =="NULL")
-     //        break;
-     //      special[x] +="\n";
-     //      special[x] += test; 
-     //    }
-     //   cout <<x+1 <<". " << special[x] <<endl <<endl;
-     //}
      cout <<"Do you want to play a ranger? <y/n>\n";
-     string decision;
+     char decision;
      cin >> decision;
-     if (decision=="y")
+     if (decision=='y')
      {
         int stance;
         cout <<"Sounds good! Would you like to be a Ranger that\n"
@@ -87,23 +123,108 @@ int main()
              <<"with two swords, and gain Toughness as a bonus feight?";
         cin >> stance;
         roleChosen=true;
-     } else if (decision =="n")
+     } else if (decision =='n')
      {
         cout <<"Thats too bad :(\n"
              <<"What class would you like to play?";
-        getline (cin, clas);
+        getline(cin, clas);
      } 
-     } else if (clas == "rogue"){
+     } else if (clas == "ROGUE"){
+      cout <<"favorsex";
 
-     } else if (clas == "warlock"){
+      cout <<"As a rogue, you get a couple of key class features:(Enter to continue)\n";
+      cin.get();
+
+      sp.showSpecials("Rogue.txt", 4);
+
+      cout <<"Do you want to play a rogue? <y/n>\n";
+      char decision;
+      cin >> decision;
+      if (decision=='y')
+      {
+        int stance;
+        cout <<"Choose one of the following options:"
+             <<"Artful Dodger: You gain a bonus to AC equal to\n"
+             <<"your Charisma modifier against opportunity attacks.\n"
+             <<"Brutal Scoundrel: You gain a bonus to Sneak Attack\n"
+             <<"damage equal to your Strength modifier.";
+        cin >> stance;
+        roleChosen=true;
+      } else if (decision=='n')
+      {
+        cout <<"Thats too bad :(\n"
+             <<"What class would you like to play?";
+        getline(cin, clas);
+      }
+
+     } else if (clas == "WARLOCK"){
+      cout <<"faivorwest";
       roleChosen=true;
 
-     } else if (clas =="warlord"){
+     } else if (clas =="WARLORD"){
+      cout <<"babortets";
 
-     } else if (clas =="wizard"){
+      cout <<"As a warlord, you get a couple of key class features:(Enter to continue)\n";
+      cin.get();
 
-     }
-  }
+      sp.showSpecials("Warlord.txt", 3);
+
+      cout <<"Do you want to play a warlord? <y/n>\n";
+      char decision;
+      cin >> decision;
+      if (decision=='y')
+      {
+        int stance;
+        cout <<"Choose one of the following options:\n"
+             <<"1. Inspiring Presence: When an ally who can see\n"
+             <<"you spends an action point to take an extra action,\n"
+             <<"that ally also regains lost hit points equal to one-\n"
+             <<"half  your level + your Charisma modifier.\n"
+             <<"2. Tactical Presence: When an ally you can see spends an\n"
+             <<"action point to make an extra attack, the ally gains a\n"
+             <<"bonus to the attack roll equal to one-half your\n"
+             <<"Intelligence modifier.";
+        cin >> stance;
+        roleChosen=true;
+      } else if (decision=='n')
+      {
+        cout <<"Thats too bad :(\n"
+             <<"What class would you like to play?";
+        getline(cin, clas);
+      }
+
+     } else if (clas =="WIZARD"){
+      cout <<"wapwrpowestse";
+
+      cout <<"As a wizard, you get a couple of key class features:(Enter to continue)\n";
+      cin.get();
+
+      sp.showSpecials("Wizard.txt", 7);
+
+      cout <<"Do you want to play a wizard? <y/n>\n";
+      char decision;
+      cin >> decision;
+      if (decision=='y')
+      {
+        int stance;
+        cout <<"Choose one of the following options:"
+             <<"Orb of Imposition: ayy\n"
+             <<"Wand of Accuracy: Ayy";
+        cin >> stance;
+        roleChosen=true;
+      } else if (decision=='n')
+      {
+        cout <<"Thats too bad :(\n"
+             <<"What class would you like to play?";
+        getline(cin, clas);
+      }
+      } else {
+        cout <<"Thats not a valid class.\n"
+             <<"Please enter a valid class: ";
+        getline (cin, clas);
+        UPPERCASE(clas);
+      }
+    }
   cout <<"Now it's time for the ability scores\n"
        << "Please enter your str: ";
   cin >> str;
@@ -124,157 +245,278 @@ int main()
 
   cout <<main.getStr();
 
-  cout << "Thats great! What about your race though? (i don't see color) (enter all lowercase) ";
+  cout << "Thats great! What about your race though? (i don't see color)";
   cin.ignore();
   getline(cin,race);
 
     cout << "I met a " << race << " who was a real jerk, but I'm sure you"
        << "'ll be cool\n";
-
+  UPPERCASE(race);
   string preferance; //this is to store the stat buff they'd like
   bool humanC; //to test if they get extra at will
+  bool raceChosen=false;
+  bool addStat=false;
+  while (raceChosen==false)
+  {
+    if (race=="DRAGONBORN") {         //checking what race the user put in and then changes relevant stats
+      cout << "As a Dragonborn, you get +2 charisma and +2 strength or "
+           << "constitution, which of the last two would you prefer?\n";
 
-  if (race=="dragonborn") {         //checking what race the user put in and then changes relevant stats
-    cout << "As a Dragonborn, you get +2 charisma and +2 strength or "
-         << "constitution, which of the last two would you prefer?\n";
 
-
-    getline(cin,preferance);
-    main.addCha(2);
-    if (preferance == "strength")
-        main.addStr(2);
-    else if (preferance == "constitution")
-        main.addCon(2);
-    main.addHistory(2);
-    main.addIntimidate(2);
-    main.setSpeed(6);
-    humanC=false;
-    main.setVision("Normal");
-} else if(race=="dwarf") {
-    main.addCon(2);
-    cout << "As a Dwarf, you get +2 constitution and +2 strength or "
-         << "wisdom, which of the last two would you prefer?\n";
-
-    getline(cin,preferance);
-    if (preferance == "strength")
-        main.addStr(2);
-    else if (preferance == "wisdom")
-        main.addWis(2);
-    main.addDungeoneering(2);
-    main.addEndurance(2);
-    main.setSpeed(5);
-    humanC=false;
-    main.setVision("Low-Light");
-} else if (race=="eladrin") {
-
-    cout << "As a Eladrin, you get +2 intelligence and +2 dexterity or "
-         << "charisma, which of the last two would you prefer?\n";
-
-    getline(cin,preferance);
-    main.addIntel(2);
-    if (preferance == "dexterity")
-        main.addDex(2);
-    else if (preferance == "charisma")
-        main.addCha(2);
-    main.addArcana(2);
-    main.addHistory(2);
-    main.setSpeed(6);
-    humanC=false;
-    main.setVision("Low-Light");
-} else if (race=="elf") {
-
-    cout << "As a Elf, you get +2 dexterity and +2 intelligence or "
-         << "wisdom, which of the last two would you prefer?\n";
-
-    getline(cin,preferance);
-    main.addDex(2);
-    if (preferance == "intelligence")
-        main.addIntel(2);
-    else if (preferance == "wisdom")
-        main.addWis(2);
-    main.addNature(2);
-    main.addPerception(2);
-    main.setSpeed(7);
-    humanC=false;
-    main.setVision("Low-Light");
-} else if (race=="half elf" || race=="half-elf") {
-
-    cout << "As a Half-elf, you get +2 constitution and +2 wisdom or "
-         << "charisma, which of the last two would you prefer?\n";
-
-    getline(cin,preferance);
-    main.addCon(2);
-    if (preferance == "wisdom")
-        main.addWis(2);
-    else if (preferance == "charisma")
-        main.addCha(2);
-    main.addCha(2);
-    main.addDiplomacy(2);
-    main.addInsight(2);
-    main.setSpeed(6);
-    humanC=false;
-    main.setVision("Low-Light");
-} else if (race=="halfling") {
-
-    cout << "As a Halfling, you get +2 dexterity and +2 constitution or "
-         << "charisma, which of the last two would you prefer?\n";
-
-    getline(cin,preferance);
-    main.addDex(2);
-    if (preferance == "constitution")
-        main.addCon(2);
-    else if (preferance == "charisma")
-        main.addCha(2);
-    main.addAcrobatics(2);
-    main.addThievery(2);
-    main.setSpeed(6);
-    humanC=false;
-    main.setVision("Normal");
-} else if (race=="human") {
-    cout <<"Choose the ability score that you want to increase by 2: ";
-    string humanstat;  //gets user input for the humans special snowflake shit
-    getline (cin, humanstat);
-    if (humanstat=="str") {                  //then use else if to test the string to see what
-      main.addStr(2);                       //stat the user inputted and then changes it.
-    } else if (humanstat=="con"){
-      main.addCon(2);
-    } else if (humanstat=="dex"){
-      main.addDex(2);
-    } else if (humanstat=="intel"){
-      main.addIntel(2);
-    } else if (humanstat=="wis"){
-      main.addWis(2);
-    }else if (humanstat=="cha"){
+      getline(cin,preferance);
+      UPPERCASE(preferance);
       main.addCha(2);
+      while(addStat==false)
+      {
+        if (preferance == "STRENGTH" || preferance == "STR")
+        {
+            main.addStr(2);
+            addStat=true;
+        }
+        else if (preferance == "CONSTITUTION" || preferance == "CON")
+        {
+            main.addCon(2);
+            addStat=true;
+        }else{
+          cout <<"That's not one of the 2 stats. Please pick one\n"
+               <<"of the two stats: ";
+          getline(cin,preferance);
+          UPPERCASE(preferance);
+        }    
+      }
+      main.addHistory(2);
+      main.addIntimidate(2);
+      main.setSpeed(6);
+      humanC=false;
+      main.setVision("Normal");
+      raceChosen=true;
+  } else if(race=="DWARF") {
+      main.addCon(2);
+      cout << "As a Dwarf, you get +2 constitution and +2 strength or "
+           << "wisdom, which of the last two would you prefer?\n";
+
+      getline(cin,preferance);
+      UPPERCASE(preferance);
+      while(addStat==false)
+      {
+        if (preferance == "STRENGTH" || preferance == "STR")
+        {
+            main.addStr(2);
+            addStat=true;
+        }
+        else if (preferance == "WISDOM" || preferance == "WIS")
+        {
+            main.addWis(2);
+            addStat=true;
+        }else{
+          cout <<"That's not one of the 2 stats. Please pick one\n"
+               <<"of the two stats: ";
+          getline(cin,preferance);
+          UPPERCASE(preferance);
+        }    
+      }
+      main.addDungeoneering(2);
+      main.addEndurance(2);
+      main.setSpeed(5);
+      humanC=false;
+      raceChosen=true;
+      main.setVision("Low-Light");
+  } else if (race=="ELADRIN") {
+      cout << "As a Eladrin, you get +2 intelligence and +2 dexterity or "
+           << "charisma, which of the last two would you prefer?\n";
+
+      getline(cin,preferance);
+      main.addIntel(2);
+      UPPERCASE(preferance);
+      while(addStat==false)
+      {
+        if (preferance == "DEXTERITY" || preferance == "DEX"){
+            main.addDex(2);
+            addStat=true;
+        } else if (preferance == "CHARISMA" || preferance == "CHA"){
+            main.addCha(2);
+            addStat=true;
+        } else {
+          cout <<"That's not one of the 2 stats. Please pick one\n"
+               <<"of the two stats: ";
+          getline(cin,preferance);
+          UPPERCASE(preferance);
+        }    
+      }
+      main.addArcana(2);
+      main.addHistory(2);
+      main.setSpeed(6);
+      humanC=false;
+      raceChosen=true;
+      main.setVision("Low-Light");
+  } else if (race=="ELF") {
+      cout << "As a Elf, you get +2 dexterity and +2 intelligence or "
+           << "wisdom, which of the last two would you prefer?\n";
+
+      getline(cin,preferance);
+      main.addDex(2);
+      UPPERCASE(preferance);
+      while(addStat==false)
+      {
+        if (preferance == "INTELLIGENCE" || preferance == "INTEL"){
+            main.addInt(2);
+            addStat=true;
+        } else if (preferance == "WISDOM" || preferance == "WIS"){
+            main.addWis(2);
+            addStat=true;
+        } else {
+          cout <<"That's not one of the 2 stats. Please pick one\n"
+               <<"of the two stats: ";
+          getline(cin,preferance);
+          UPPERCASE(preferance);
+        }    
+      }
+      main.addNature(2);
+      main.addPerception(2);
+      main.setSpeed(7);
+      humanC=false;
+      raceChosen=true;
+      main.setVision("Low-Light");
+  } else if (race=="HALF ELF" || race=="HALF-ELF") {
+
+      cout << "As a Half-elf, you get +2 constitution and +2 wisdom or "
+           << "charisma, which of the last two would you prefer?\n";
+
+      getline(cin,preferance);
+      main.addCon(2);
+      UPPERCASE(preferance);
+      while(addStat==false)
+      {
+        if (preferance == "CHARISMA" || preferance == "CHA"){
+            main.addCha(2);
+            addStat=true;
+        } else if (preferance == "WISDOM" || preferance == "WIS"){
+            main.addWis(2);
+            addStat=true;
+        } else {
+          cout <<"That's not one of the 2 stats. Please pick one\n"
+               <<"of the two stats: ";
+          getline(cin,preferance);
+          UPPERCASE(preferance);
+        }    
+      }
+      main.addDiplomacy(2);
+      main.addInsight(2);
+      main.setSpeed(6);
+      humanC=false;
+      roleChosen=true;
+      main.setVision("Low-Light");
+  } else if (race=="HALFLING") {
+
+      cout << "As a Halfling, you get +2 dexterity and +2 constitution or "
+           << "charisma, which of the last two would you prefer?\n";
+
+      getline(cin,preferance);
+      main.addDex(2);
+      UPPERCASE(preferance);
+      while(addStat==false)
+      {
+        if (preferance == "CHARISMA" || preferance == "CHA")
+        {
+            main.addCha(2);
+            addStat=true;
+        } else if (preferance == "CONSTITUTION" || preferance == "CON") {
+            main.addCon(2);
+            addStat=true;
+        } else {
+          cout <<"That's not one of the 2 stats. Please pick one\n"
+               <<"of the two stats: ";
+          getline(cin,preferance);
+          UPPERCASE(preferance);
+        }    
+      }
+      main.addAcrobatics(2);
+      main.addThievery(2);
+      main.setSpeed(6);
+      humanC=false;
+      roleChosen=true;
+      main.setVision("Normal");
+  } else if (race=="HUMAN") {
+      cout <<"Choose the ability score that you want to increase by 2: ";
+      string humanstat;  //gets user input for the humans special snowflake shit
+      getline (cin, humanstat);
+      UPPERCASE(humanstat);
+      while(addStat==false)
+      {
+        if (humanstat=="STR" ||humanstat=="STRENGTH") {                  //then use else if to test the string to see what
+          main.addStr(2);
+          addStat=true;                       //stat the user inputted and then changes it.
+        } else if (humanstat=="CON" || humanstat =="CONSTITUTION"){
+          main.addCon(2);
+          addStat=true;
+        } else if (humanstat=="DEX" || humanstat == "DEXTERITY"){
+          main.addDex(2);
+          addStat=true;
+        } else if (humanstat=="INTEL" || humanstat == "INTELLIGENCE"){
+          main.addIntel(2);
+          addStat=true;
+        } else if (humanstat=="WIS" || humanstat == "WISDOM"){
+          main.addWis(2);
+          addStat=true;
+        }else if (humanstat=="CHA" || humanstat == "CHARISMA"){
+          main.addCha(2);
+          addStat=true;
+        } else {
+          cout <<"Thats not one of the stats you can pick.\n"
+               <<"Please enter a valid stat: "
+          getline (cin, humanstat);
+          UPPERCASE(humanstat);
+        }
+      }  
+      humanC=true;
+      roleChosen=true;
+      main.addFort(1);
+      main.addReflex(1);
+      main.addWill(1);
+      main.setSpeed(6);
+      main.setVision("Normal");
+
+      cout << "As a human you the choice of an extra at will power of the "
+           << "ability, Heroic Effort. Which would you prefer?\n"
+           << "Enter 1 for at will, 0 for ability ";
+      int humandecision;     
+      cin >> humandecision;
+  } else if (race=="TIEFLING") {
+
+      cout << "As a Tiefling, you get +2 charisma and +2 constitution or "
+           << "intelligence, which of the last two would you prefer?\n";
+
+      getline(cin,preferance);
+      UPPERCASE(preferance)
+      main.addCha(2);
+      while (addStat==false)
+      {
+        if (preferance == "CONSTITUTION" || preferance =="CON"){
+            main.addCon(2);
+            addStat=true;
+        } else if (preferance == "INTELLIGENCE" || preferance == "INTEL") {
+            main.addIntel(2);
+            addStat=true;
+        } else {
+          cout <<"That's not one of the 2 stats. Please pick one\n"
+               <<"of the two stats: ";
+          getline(cin,preferance);
+          UPPERCASE(preferance);
+        }
+      }
+      main.addBluff(2);
+      main.addStealth(2);
+      main.setSpeed(6);
+      humanC=false;
+      roleChosen=true;
+      main.setVision("Low-Light");
+    } else
+    {
+      cout <<"Thats not a valid race.\n"
+           <<"Please enter a valid race: ";
+      getline(cin, race);
+      UPPERCASE(race);
     }
-    humanC=true;
-    main.addFort(1);
-    main.addReflex(1);
-    main.addWill(1);
-    main.setSpeed(6);
-    main.setVision("Normal");
-
-    cout << "As a human you the choice of an extra at will power of the "
-         << "ability, Heroic Effort. Which would you prefer?\n"
-         << "Enter 1 for at will, 0 for ability ";
-    int humandecision;     
-    cin >> humandecision;
-} else if (race=="tiefling") {
-
-    cout << "As a Tiefling, you get +2 charisma and +2 constitution or "
-         << "intelligence, which of the last two would you prefer?\n";
-
-    getline(cin,preferance);
-    main.addCha(2);
-    if (preferance == "constitution")
-        main.addCon(2);
-    else if (preferance == "intelligence")
-        main.addIntel(2);
-    main.addBluff(2);
-    main.addStealth(2);
-    main.setSpeed(6);
-    humanC=false;
-    main.setVision("Low-Light");
   }
 
 
@@ -286,7 +528,7 @@ int main()
   //and what type of class they will be, as well other optional
   //things
 
-  if (clas == "cleric") {
+  if (clas == "CLERIC") {
     main.addWill(2);
     main.setHealth(12, main.getConMod());
     main.setSurges(7, main.getConMod());
@@ -307,7 +549,7 @@ int main()
     cout << "And finally pick your daily ";
     cin >> daily;
 
-} else if (clas =="fighter") {
+} else if (clas =="FIGHTER") {
     main.addFort(2);
     main.setHealth(15, main.getConMod());
     main.setSurges(9, main.getConMod());
@@ -327,7 +569,7 @@ int main()
     main.showDailies("Fighter.txt", 94, 3);
     cout << "And finally pick your daily ";
     cin >> daily;
- } else if (clas =="paladin") {
+ } else if (clas =="PALADIN") {
     main.addFort(1);
     main.addReflex(1);
     main.addWill(1);
@@ -352,7 +594,7 @@ int main()
 
     cout << "And finally pick your daily ";
     cin >> daily;
-} else if (clas =="ranger") {
+} else if (clas =="RANGER") {
     main.addFort(1);
     main.addReflex(1);
     main.setHealth(12, main.getConMod());
@@ -376,7 +618,7 @@ int main()
 
     cout << "And finally pick your daily ";
     cin >> daily;
-} else if (clas =="rogue") {
+} else if (clas =="ROGUE") {
     main.addReflex(2);
     main.setHealth(12, main.getConMod());
     main.setSurges(6, main.getConMod());
@@ -401,7 +643,7 @@ int main()
     cin >> daily;
 
 
- } else if (clas =="warlock") {
+ } else if (clas =="WARLOCK") {
     main.addReflex(1);
     main.addWill(1);
     main.setHealth(12, main.getConMod());
@@ -430,7 +672,7 @@ int main()
     cout <<"And finally pick your daily ";
     cin >>daily;
 
-} else if (clas =="warlord") {
+} else if (clas =="WARLORD") {
     main.addFort(1);
     main.addWill(1);
     main.setHealth(12, main.getConMod());
@@ -451,7 +693,7 @@ int main()
     main.showDailies("Warlord.txt", 105, 3);
     cout << "And finally pick your daily ";
     cin >> daily;
-   } else if (clas =="wizard") {
+   } else if (clas =="WIZARD") {
     main.addWill(2);
     main.setHealth(10, main.getConMod());
     main.setSurges(6, main.getConMod());
@@ -509,3 +751,9 @@ int main()
   return 0;
 }
 
+void UPPERCASE(string &s)
+{
+  for (int i=0; i<s.length(); ++i)
+    s[i] = toupper(s[i]);
+
+}
